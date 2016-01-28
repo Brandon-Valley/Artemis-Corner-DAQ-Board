@@ -12508,6 +12508,7 @@ Metric Code Size 5664</description>
 <part name="C20" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C21" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12788,6 +12789,7 @@ MAX 17V</text>
 <instance part="C20" gate="G$1" x="0" y="139.7"/>
 <instance part="C21" gate="G$1" x="-10.16" y="139.7"/>
 <instance part="C24" gate="G$1" x="-20.32" y="139.7"/>
+<instance part="GND1" gate="1" x="53.34" y="279.4"/>
 </instances>
 <busses>
 </busses>
