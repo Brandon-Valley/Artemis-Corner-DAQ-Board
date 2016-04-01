@@ -20474,7 +20474,7 @@ Source: http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0111S0109NFM3DC.pdf
 </part>
 <part name="+3V311" library="supply1" deviceset="+3V3" device=""/>
 <part name="+1V21" library="FormE" deviceset="+1V2" device=""/>
-<part name="IC1" library="ftdichip" deviceset="FT232R" device="L">
+<part name="U9" library="ftdichip" deviceset="FT232R" device="L">
 <attribute name="PARTNO" value="FT232RL-REEL"/>
 </part>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
@@ -20916,7 +20916,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 </instance>
 <instance part="+3V311" gate="G$1" x="878.84" y="185.42"/>
 <instance part="+1V21" gate="G$1" x="878.84" y="124.46"/>
-<instance part="IC1" gate="1" x="612.14" y="200.66" rot="MR0">
+<instance part="U9" gate="1" x="612.14" y="200.66" rot="MR0">
 <attribute name="PARTNO" x="612.14" y="200.66" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND37" gate="1" x="594.36" y="167.64" rot="MR0"/>
@@ -21319,24 +21319,24 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="594.36" y1="170.18" x2="594.36" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="GND@2"/>
+<pinref part="U9" gate="1" pin="GND@2"/>
 <wire x1="594.36" y1="175.26" x2="596.9" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="594.36" y1="175.26" x2="594.36" y2="177.8" width="0.1524" layer="91"/>
 <junction x="594.36" y="175.26"/>
-<pinref part="IC1" gate="1" pin="GND@1"/>
+<pinref part="U9" gate="1" pin="GND@1"/>
 <wire x1="594.36" y1="177.8" x2="596.9" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="GND"/>
+<pinref part="U9" gate="1" pin="GND"/>
 <wire x1="596.9" y1="180.34" x2="594.36" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="594.36" y1="180.34" x2="594.36" y2="177.8" width="0.1524" layer="91"/>
 <junction x="594.36" y="177.8"/>
 <wire x1="594.36" y1="180.34" x2="594.36" y2="185.42" width="0.1524" layer="91"/>
 <junction x="594.36" y="180.34"/>
-<pinref part="IC1" gate="1" pin="TEST"/>
+<pinref part="U9" gate="1" pin="TEST"/>
 <wire x1="594.36" y1="185.42" x2="596.9" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="IC1" gate="1" pin="GND@A"/>
+<pinref part="U9" gate="1" pin="GND@A"/>
 <wire x1="629.92" y1="165.1" x2="629.92" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="629.92" y1="182.88" x2="624.84" y2="182.88" width="0.1524" layer="91"/>
 </segment>
@@ -21757,7 +21757,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <pinref part="P+9" gate="1" pin="+5V"/>
 <wire x1="619.76" y1="254" x2="619.76" y2="251.46" width="0.1524" layer="91"/>
 <junction x="619.76" y="251.46"/>
-<pinref part="IC1" gate="1" pin="VCC"/>
+<pinref part="U9" gate="1" pin="VCC"/>
 <wire x1="624.84" y1="223.52" x2="632.46" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="632.46" y1="223.52" x2="632.46" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="632.46" y1="251.46" x2="627.38" y2="251.46" width="0.1524" layer="91"/>
@@ -21906,7 +21906,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <segment>
 <pinref part="+3V310" gate="G$1" pin="+3V3"/>
 <wire x1="640.08" y1="220.98" x2="640.08" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="VCCIO"/>
+<pinref part="U9" gate="1" pin="VCCIO"/>
 <wire x1="640.08" y1="238.76" x2="640.08" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="624.84" y1="220.98" x2="640.08" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="1"/>
@@ -22087,7 +22087,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <net name="UART_TX" class="0">
 <segment>
 <label x="576.58" y="220.98" size="1.778" layer="95"/>
-<pinref part="IC1" gate="1" pin="RXD"/>
+<pinref part="U9" gate="1" pin="RXD"/>
 <wire x1="576.58" y1="220.98" x2="596.9" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22098,7 +22098,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="IC1" gate="1" pin="TXD"/>
+<pinref part="U9" gate="1" pin="TXD"/>
 <wire x1="596.9" y1="223.52" x2="576.58" y2="223.52" width="0.1524" layer="91"/>
 <label x="576.58" y="223.52" size="1.778" layer="95"/>
 </segment>
@@ -22113,20 +22113,20 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="589.28" y1="198.12" x2="589.28" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="589.28" y1="190.5" x2="586.74" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="CBUS1"/>
+<pinref part="U9" gate="1" pin="CBUS1"/>
 <wire x1="596.9" y1="198.12" x2="589.28" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="1" pin="CBUS0"/>
+<pinref part="U9" gate="1" pin="CBUS0"/>
 <wire x1="586.74" y1="200.66" x2="596.9" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_D_N" class="1">
 <segment>
-<pinref part="IC1" gate="1" pin="USBDM"/>
+<pinref part="U9" gate="1" pin="USBDM"/>
 <wire x1="624.84" y1="187.96" x2="660.4" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="660.4" y1="187.96" x2="660.4" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="D-"/>
@@ -22138,7 +22138,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <pinref part="JP2" gate="G$1" pin="D+"/>
 <wire x1="670.56" y1="203.2" x2="662.94" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="662.94" y1="203.2" x2="662.94" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="USBDP"/>
+<pinref part="U9" gate="1" pin="USBDP"/>
 <wire x1="662.94" y1="190.5" x2="624.84" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22160,7 +22160,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <segment>
 <pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="652.78" y1="182.88" x2="652.78" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="3V3OUT"/>
+<pinref part="U9" gate="1" pin="3V3OUT"/>
 <wire x1="652.78" y1="195.58" x2="624.84" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22179,7 +22179,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <wire x1="645.16" y1="208.28" x2="642.62" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="645.16" y1="208.28" x2="645.16" y2="215.9" width="0.1524" layer="91"/>
 <junction x="645.16" y="208.28"/>
-<pinref part="IC1" gate="1" pin="!RESET"/>
+<pinref part="U9" gate="1" pin="!RESET"/>
 <wire x1="645.16" y1="215.9" x2="624.84" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
