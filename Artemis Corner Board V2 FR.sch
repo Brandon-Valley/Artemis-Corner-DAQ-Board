@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1600,56 +1600,6 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 </package>
-<package name="1-776231-1">
-<pad name="18" x="0" y="0" drill="1.75"/>
-<pad name="19" x="4" y="0" drill="1.75"/>
-<pad name="20" x="8" y="0" drill="1.75"/>
-<pad name="21" x="12" y="0" drill="1.75"/>
-<pad name="22" x="16" y="0" drill="1.75"/>
-<pad name="23" x="20" y="0" drill="1.75"/>
-<pad name="17" x="-4" y="0" drill="1.75"/>
-<pad name="16" x="-8" y="0" drill="1.75"/>
-<pad name="15" x="-12" y="0" drill="1.75"/>
-<pad name="14" x="-16" y="0" drill="1.75"/>
-<pad name="13" x="-20" y="0" drill="1.75"/>
-<pad name="6" x="-2" y="4" drill="1.75"/>
-<pad name="5" x="-6" y="4" drill="1.75"/>
-<pad name="4" x="-10" y="4" drill="1.75"/>
-<pad name="3" x="-14" y="4" drill="1.75"/>
-<pad name="2" x="-18" y="4" drill="1.75"/>
-<pad name="1" x="-22" y="4" drill="1.75"/>
-<pad name="7" x="2" y="4" drill="1.75"/>
-<pad name="8" x="6" y="4" drill="1.75"/>
-<pad name="9" x="10" y="4" drill="1.75"/>
-<pad name="10" x="14" y="4" drill="1.75"/>
-<pad name="11" x="18" y="4" drill="1.75"/>
-<pad name="12" x="22" y="4" drill="1.75"/>
-<pad name="24" x="-22" y="-4" drill="1.75"/>
-<pad name="25" x="-18" y="-4" drill="1.75"/>
-<pad name="26" x="-14" y="-4" drill="1.75"/>
-<pad name="27" x="-10" y="-4" drill="1.75"/>
-<pad name="28" x="-6" y="-4" drill="1.75"/>
-<pad name="29" x="-2" y="-4" drill="1.75"/>
-<pad name="30" x="2" y="-4" drill="1.75"/>
-<pad name="31" x="6" y="-4" drill="1.75"/>
-<pad name="32" x="10" y="-4" drill="1.75"/>
-<pad name="33" x="14" y="-4" drill="1.75"/>
-<pad name="34" x="18" y="-4" drill="1.75"/>
-<pad name="35" x="22" y="-4" drill="1.75"/>
-<hole x="31.7" y="10.8" drill="2"/>
-<hole x="-31.7" y="10.8" drill="2"/>
-<hole x="-33.2" y="-7.3" drill="2"/>
-<hole x="33.2" y="-7.3" drill="2"/>
-<text x="-3.81" y="-10.16" size="1.27" layer="21">&gt;Name</text>
-<wire x1="33.45" y1="-16.05" x2="-33.45" y2="-16.05" width="0.127" layer="49"/>
-<wire x1="-33.45" y1="-16.05" x2="-38.45" y2="-11.05" width="0.127" layer="49" curve="-90"/>
-<wire x1="-38.45" y1="-11.05" x2="-38.45" y2="11.05" width="0.127" layer="49"/>
-<wire x1="-38.45" y1="11.05" x2="-33.45" y2="16.05" width="0.127" layer="49" curve="-90"/>
-<wire x1="-33.45" y1="16.05" x2="33.45" y2="16.05" width="0.127" layer="49"/>
-<wire x1="33.45" y1="16.05" x2="38.45" y2="11.05" width="0.127" layer="49" curve="-90"/>
-<wire x1="38.45" y1="11.05" x2="38.45" y2="-11.05" width="0.127" layer="49"/>
-<wire x1="38.45" y1="-11.05" x2="33.45" y2="-16.05" width="0.127" layer="49" curve="-90"/>
-</package>
 <package name="776228-4">
 <hole x="23.7" y="10.8" drill="2.17"/>
 <hole x="25.2" y="-7.3" drill="2.17"/>
@@ -2024,56 +1974,6 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <text x="-5.08" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="1-776231-1">
-<wire x1="12.7" y1="15.24" x2="12.7" y2="48.26" width="0.254" layer="94"/>
-<pin name="1" x="15.24" y="45.72" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="2" x="15.24" y="43.18" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="3" x="15.24" y="40.64" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="4" x="15.24" y="38.1" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="5" x="15.24" y="35.56" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="6" x="15.24" y="33.02" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="7" x="15.24" y="30.48" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="8" x="15.24" y="27.94" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="9" x="15.24" y="25.4" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="10" x="15.24" y="22.86" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="11" x="15.24" y="20.32" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="12" x="15.24" y="17.78" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<wire x1="12.7" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<pin name="13" x="15.24" y="12.7" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="14" x="15.24" y="10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="15" x="15.24" y="7.62" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="16" x="15.24" y="5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="17" x="15.24" y="2.54" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="18" x="15.24" y="0" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="19" x="15.24" y="-2.54" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="20" x="15.24" y="-5.08" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="21" x="15.24" y="-7.62" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="22" x="15.24" y="-10.16" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<pin name="23" x="15.24" y="-12.7" visible="pin" length="middle" swaplevel="1" rot="R180"/>
-<wire x1="10.16" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="12.7" y2="-48.26" width="0.254" layer="94"/>
-<pin name="24" x="15.24" y="-17.78" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="25" x="15.24" y="-20.32" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="26" x="15.24" y="-22.86" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="27" x="15.24" y="-25.4" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="28" x="15.24" y="-27.94" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="29" x="15.24" y="-30.48" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="30" x="15.24" y="-33.02" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="31" x="15.24" y="-35.56" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="32" x="15.24" y="-38.1" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="33" x="15.24" y="-40.64" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="34" x="15.24" y="-43.18" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="35" x="15.24" y="-45.72" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<wire x1="12.7" y1="-48.26" x2="0" y2="-48.26" width="0.254" layer="94"/>
-<wire x1="0" y1="-48.26" x2="0" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="0" y1="-40.64" x2="-5.08" y2="-40.64" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-40.64" x2="-5.08" y2="40.64" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
-<wire x1="0" y1="40.64" x2="0" y2="48.26" width="0.254" layer="94"/>
-<wire x1="0" y1="48.26" x2="12.7" y2="48.26" width="0.254" layer="94"/>
-<text x="5.08" y="-50.8" size="1.27" layer="95">&gt;Name</text>
 </symbol>
 <symbol name="776228-4">
 <wire x1="12.7" y1="10.16" x2="12.7" y2="33.02" width="0.254" layer="94"/>
@@ -2931,58 +2831,6 @@ Some male, some female. Watch your step!</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1-776231-1" prefix="H">
-<description>35 Pin sealed Connector Panel Mount</description>
-<gates>
-<gate name="G$1" symbol="1-776231-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1-776231-1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="33" pad="33"/>
-<connect gate="G$1" pin="34" pad="34"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="1-776231-1" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -20767,7 +20615,6 @@ Source: http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0111S0109NFM3DC.pdf
 <attribute name="PARTNO" value="74479775222"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="H3" library="FormE" deviceset="1-776231-1" device="" value="1-776231-1"/>
 <part name="H1" library="FormE" deviceset="776228-4" device="" value="776228-4"/>
 </parts>
 <sheets>
@@ -20786,14 +20633,14 @@ MAX 17V</text>
 <text x="891.54" y="254" size="1.778" layer="91">16V or higher caps</text>
 <text x="789.94" y="223.52" size="1.778" layer="91">25V or higher cap</text>
 <text x="756.92" y="254" size="1.778" layer="91">25V or higher cap</text>
-<text x="-523.24" y="63.5" size="1.27" layer="97" rot="MR0">Strain Gauge GND</text>
-<text x="-510.54" y="149.86" size="1.27" layer="97" rot="MR0">Damper GND</text>
-<text x="-510.54" y="137.16" size="1.27" layer="97" rot="MR0">Wheel Tach GND</text>
-<text x="-523.24" y="68.58" size="1.27" layer="97" rot="MR0">Tire Temperature GND</text>
-<text x="-523.24" y="91.44" size="1.27" layer="97" rot="MR0">Tire Temperature 5V</text>
-<text x="-523.24" y="81.28" size="1.27" layer="97" rot="MR0">Wheel Tach 5V</text>
-<text x="-523.24" y="83.82" size="1.27" layer="97" rot="MR0">Damper 5V</text>
-<text x="-523.24" y="86.36" size="1.27" layer="97" rot="MR0">Strain Gauge 5V</text>
+<text x="-495.3" y="160.02" size="1.27" layer="97" rot="MR0">Strain Gauge GND</text>
+<text x="-495.3" y="170.18" size="1.27" layer="97" rot="MR0">Damper GND</text>
+<text x="-495.3" y="139.7" size="1.27" layer="97" rot="MR0">Wheel Tach GND</text>
+<text x="-495.3" y="167.64" size="1.27" layer="97" rot="MR0">Tire Temperature GND</text>
+<text x="-495.3" y="165.1" size="1.27" layer="97" rot="MR0">Tire Temperature 5V</text>
+<text x="-495.3" y="162.56" size="1.27" layer="97" rot="MR0">Wheel Tach 5V</text>
+<text x="-495.3" y="193.04" size="1.27" layer="97" rot="MR0">Damper 5V</text>
+<text x="-495.3" y="180.34" size="1.27" layer="97" rot="MR0">Strain Gauge 5V</text>
 <text x="-264.16" y="231.14" size="1.778" layer="97">See TI's reference design: ADS1232REF
 Also read: http://www.ti.com/lit/ml/slyp163/slyp163.pdf</text>
 <text x="-144.78" y="129.54" size="1.778" layer="97">GAIN:
@@ -20833,16 +20680,16 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
   Requires 3 additional
   350-ohm precision resistors 
   to form a wheatstone bridge</text>
-<text x="-523.24" y="78.74" size="1.27" layer="97" rot="MR0">GLV battery VCC</text>
-<text x="-523.24" y="58.42" size="1.27" layer="97" rot="MR0">GLV battery GND</text>
+<text x="-495.3" y="195.58" size="1.27" layer="97" rot="MR0">GLV battery VCC</text>
+<text x="-495.3" y="172.72" size="1.27" layer="97" rot="MR0">GLV battery GND</text>
 <text x="264.16" y="210.82" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="-205.74" y="139.7" size="1.778" layer="97">NC</text>
 <text x="810.26" y="172.72" size="1.778" layer="97">74479775222</text>
 </plain>
 <instances>
-<instance part="P+1" gate="VCC" x="-574.04" y="104.14" rot="MR0"/>
-<instance part="GND1" gate="1" x="-591.82" y="27.94" rot="MR0"/>
-<instance part="P+2" gate="1" x="-584.2" y="104.14" rot="MR0"/>
+<instance part="P+1" gate="VCC" x="-571.5" y="205.74" rot="MR0"/>
+<instance part="GND1" gate="1" x="-576.58" y="129.54" rot="MR0"/>
+<instance part="P+2" gate="1" x="-558.8" y="205.74" rot="MR0"/>
 <instance part="GND46" gate="1" x="782.32" y="160.02"/>
 <instance part="GND53" gate="1" x="838.2" y="160.02"/>
 <instance part="+3V311" gate="G$1" x="838.2" y="180.34"/>
@@ -21181,8 +21028,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <attribute name="PARTNO" x="820.42" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="850.9" y="185.42"/>
-<instance part="H3" gate="G$1" x="-701.04" y="228.6"/>
-<instance part="H1" gate="G$2" x="-609.6" y="63.5"/>
+<instance part="H1" gate="G$2" x="-594.36" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -21581,6 +21427,28 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="838.2" y1="165.1" x2="838.2" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="H1" gate="G$2" pin="P9"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="-579.12" y1="172.72" x2="-576.58" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-576.58" y1="172.72" x2="-576.58" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$2" pin="P10"/>
+<wire x1="-576.58" y1="170.18" x2="-576.58" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-576.58" y1="167.64" x2="-576.58" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-576.58" y1="160.02" x2="-576.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-576.58" y1="139.7" x2="-576.58" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-579.12" y1="170.18" x2="-576.58" y2="170.18" width="0.1524" layer="91"/>
+<junction x="-576.58" y="170.18"/>
+<pinref part="H1" gate="G$2" pin="P11"/>
+<wire x1="-579.12" y1="167.64" x2="-576.58" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-576.58" y="167.64"/>
+<pinref part="H1" gate="G$2" pin="P14"/>
+<wire x1="-579.12" y1="160.02" x2="-576.58" y2="160.02" width="0.1524" layer="91"/>
+<junction x="-576.58" y="160.02"/>
+<pinref part="H1" gate="G$2" pin="P21"/>
+<wire x1="-579.12" y1="139.7" x2="-576.58" y2="139.7" width="0.1524" layer="91"/>
+<junction x="-576.58" y="139.7"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -21604,6 +21472,12 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <wire x1="822.96" y1="246.38" x2="820.42" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="820.42" y1="246.38" x2="820.42" y2="251.46" width="0.1524" layer="91"/>
 <junction x="820.42" y="251.46"/>
+</segment>
+<segment>
+<pinref part="H1" gate="G$2" pin="P1"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="-579.12" y1="195.58" x2="-571.5" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-571.5" y1="195.58" x2="-571.5" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -21713,6 +21587,24 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <wire x1="769.62" y1="175.26" x2="769.62" y2="172.72" width="0.1524" layer="91"/>
 <junction x="769.62" y="175.26"/>
 </segment>
+<segment>
+<pinref part="H1" gate="G$2" pin="P2"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
+<wire x1="-579.12" y1="193.04" x2="-558.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="193.04" x2="-558.8" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$2" pin="P12"/>
+<wire x1="-579.12" y1="165.1" x2="-558.8" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="165.1" x2="-558.8" y2="180.34" width="0.1524" layer="91"/>
+<junction x="-558.8" y="193.04"/>
+<pinref part="H1" gate="G$2" pin="P13"/>
+<wire x1="-558.8" y1="180.34" x2="-558.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="-579.12" y1="162.56" x2="-558.8" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="-558.8" y1="162.56" x2="-558.8" y2="165.1" width="0.1524" layer="91"/>
+<junction x="-558.8" y="165.1"/>
+<pinref part="H1" gate="G$2" pin="P7"/>
+<wire x1="-579.12" y1="180.34" x2="-558.8" y2="180.34" width="0.1524" layer="91"/>
+<junction x="-558.8" y="180.34"/>
+</segment>
 </net>
 <net name="CAR_CAN_TX" class="0">
 <segment>
@@ -21734,8 +21626,9 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 </net>
 <net name="CAR_CAN_P" class="1">
 <segment>
-<wire x1="-591.82" y1="55.88" x2="-523.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="-523.24" y="55.88" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="152.4" x2="-495.3" y2="152.4" width="0.1524" layer="91"/>
+<label x="-495.3" y="152.4" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P16"/>
 </segment>
 <segment>
 <wire x1="535.94" y1="96.52" x2="508" y2="96.52" width="0.1524" layer="91"/>
@@ -22082,8 +21975,9 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <pinref part="CF1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="-579.12" y1="165.1" x2="-510.54" y2="165.1" width="0.1524" layer="91"/>
-<label x="-510.54" y="165.1" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="177.8" x2="-495.3" y2="177.8" width="0.1524" layer="91"/>
+<label x="-495.3" y="177.8" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P8"/>
 </segment>
 </net>
 <net name="STRAIN_GAUGE_NEGATIVE" class="0">
@@ -22093,14 +21987,16 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <pinref part="CF2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="-579.12" y1="162.56" x2="-510.54" y2="162.56" width="0.1524" layer="91"/>
-<label x="-510.54" y="162.56" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="157.48" x2="-495.3" y2="157.48" width="0.1524" layer="91"/>
+<label x="-495.3" y="157.48" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P15"/>
 </segment>
 </net>
 <net name="CAR_CAN_N" class="1">
 <segment>
-<wire x1="-591.82" y1="76.2" x2="-523.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="-523.24" y="76.2" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="149.86" x2="-495.3" y2="149.86" width="0.1524" layer="91"/>
+<label x="-495.3" y="149.86" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P17"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -22127,8 +22023,9 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <label x="43.18" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-591.82" y1="71.12" x2="-523.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="-523.24" y="71.12" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="147.32" x2="-495.3" y2="147.32" width="0.1524" layer="91"/>
+<label x="-495.3" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P18"/>
 </segment>
 </net>
 <net name="IR_SENSOR_CAN_N" class="1">
@@ -22144,8 +22041,9 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <label x="43.18" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-591.82" y1="93.98" x2="-523.24" y2="93.98" width="0.1524" layer="91"/>
-<label x="-523.24" y="93.98" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="144.78" x2="-495.3" y2="144.78" width="0.1524" layer="91"/>
+<label x="-495.3" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P19"/>
 </segment>
 </net>
 <net name="SENSOR_CAN_TX" class="0">
@@ -22168,8 +22066,9 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 </net>
 <net name="DAMPER_POSITION" class="0">
 <segment>
-<wire x1="-579.12" y1="147.32" x2="-510.54" y2="147.32" width="0.1524" layer="91"/>
-<label x="-510.54" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="190.5" x2="-495.3" y2="190.5" width="0.1524" layer="91"/>
+<label x="-495.3" y="190.5" size="1.778" layer="95" rot="MR0"/>
+<pinref part="H1" gate="G$2" pin="P3"/>
 </segment>
 <segment>
 <label x="-396.24" y="86.36" size="1.778" layer="95"/>
@@ -22333,8 +22232,9 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 </net>
 <net name="WHEEL_TACHOMETER" class="0">
 <segment>
-<label x="-510.54" y="134.62" size="1.778" layer="95" rot="MR0"/>
-<wire x1="-579.12" y1="134.62" x2="-510.54" y2="134.62" width="0.1524" layer="91"/>
+<label x="-495.3" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<wire x1="-579.12" y1="142.24" x2="-495.3" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$2" pin="P20"/>
 </segment>
 <segment>
 <label x="-393.7" y="10.16" size="1.778" layer="95"/>
