@@ -78,9 +78,9 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
 <layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
@@ -90,7 +90,7 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
-<layer number="114" name="INFO4" color="7" fill="13" visible="yes" active="yes"/>
+<layer number="114" name="INFO4" color="7" fill="13" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -114,10 +114,10 @@
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
 <layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
 <layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
@@ -139,12 +139,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
@@ -153,7 +153,7 @@
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -1996,278 +1996,457 @@ einem neuen Namen ab.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U9" library="ftdichip" package="SSOP28" value="FT232RL" x="-16.51" y="4.445" rot="MR270">
+<element name="U9" library="ftdichip" package="SSOP28" value="FT232RL" x="-16.51" y="4.445" smashed="yes" rot="MR270">
 <attribute name="OC_NEWARK" value="91K9918" x="32.385" y="47.625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="FT232RL" x="32.385" y="47.625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_FARNELL" value="1146032" x="32.385" y="47.625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PARTNO" value="FT232RL-REEL" x="32.385" y="47.625" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="" x="32.385" y="47.625" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-17.8699" y="-1.031" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="-15.83" y="8.3449" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="LED1" library="FormE" package="CHIP-LED0805" value="ORANGE" x="-10.16" y="14.605" rot="MR270">
+<element name="LED1" library="FormE" package="CHIP-LED0805" value="ORANGE" x="-10.16" y="14.605" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="598-8130-107F" x="38.1" y="57.785" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-7.62" y="15.875" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-8.89" y="12.065" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="LED2" library="FormE" package="CHIP-LED0805" value="ORANGE" x="-10.16" y="12.7" rot="MR270">
+<element name="LED2" library="FormE" package="CHIP-LED0805" value="ORANGE" x="-10.16" y="12.7" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="598-8130-107F" x="38.1" y="55.88" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-12.065" y="11.7475" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="-8.89" y="10.16" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R15" library="rcl" package="R0805" value="270" x="-16.51" y="15.24" rot="MR180">
+<element name="R15" library="rcl" package="R0805" value="270" x="-16.51" y="15.24" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="ERJ-6ENF2700V" x="-60.325" y="26.035" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-18.415" y="14.9225" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-17.145" y="17.78" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R16" library="rcl" package="R0805" value="270" x="-18.415" y="12.065" rot="MR90">
+<element name="R16" library="rcl" package="R0805" value="270" x="-18.415" y="12.065" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="ERJ-6ENF2700V" x="-35.56" y="-20.32" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-19.685" y="13.97" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-20.955" y="11.43" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C33" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="3.81" rot="MR90">
+<element name="C33" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="3.81" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-72.39" y="-42.545" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-24.13" y="6.35" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-26.035" y="2.54" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C32" library="rcl" package="C0805" value="4.7uF" x="-26.035" y="3.81" rot="MR90">
+<element name="C32" library="rcl" package="C0805" value="4.7uF" x="-26.035" y="3.81" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GRM21BR71A475KA73K" x="-81.28" y="-35.56" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-26.67" y="6.35" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-28.575" y="2.54" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C35" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="-1.27" rot="MR270">
+<element name="C35" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="-1.27" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="38.1" y="66.04" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-24.765" y="0" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-20.955" y="0" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="JP2" library="FormE" package="MOLEX-MICROUSB-B-105017-0001" value="" x="-13.335" y="-18.415" rot="MR0">
+<element name="JP2" library="FormE" package="MOLEX-MICROUSB-B-105017-0001" value="" x="-13.335" y="-18.415" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="1050170001" x="46.355" y="-94.615" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="-11.43" y="-13.97" size="1.27" layer="26" rot="MR0"/>
 </element>
-<element name="R18" library="rcl" package="R0805" value="4.7k" x="-10.795" y="-7.62" rot="MR90">
+<element name="R18" library="rcl" package="R0805" value="4.7k" x="-10.795" y="-7.62" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="ERJ-6ENF4701V" x="-66.675" y="-90.805" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-12.065" y="-5.715" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-13.335" y="-8.255" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R17" library="rcl" package="R0805" value="10k" x="-10.795" y="-3.175" rot="MR90">
+<element name="R17" library="rcl" package="R0805" value="10k" x="-10.795" y="-3.175" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="ERJ-6ENF1002V" x="-66.675" y="-41.275" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-12.065" y="-1.27" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-13.335" y="-3.81" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R14" library="rcl" package="R0805" value="120R" x="-3.81" y="-6.35" rot="MR180">
+<element name="R14" library="rcl" package="R0805" value="120R" x="-3.81" y="-6.35" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="ERJ-6ENF1200V" x="-36.195" y="81.28" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-5.715" y="-6.985" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-4.445" y="-3.81" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C30" library="rcl" package="C0805" value="0.1uF" x="-3.81" y="-17.78" rot="MR180">
+<element name="C30" library="rcl" package="C0805" value="0.1uF" x="-3.81" y="-17.78" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-71.12" y="63.5" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-5.715" y="-19.05" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="-5.08" y="-15.24" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C31" library="rcl" package="C0805" value="0.1uF" x="-7.62" y="-12.065" rot="MR270">
+<element name="C31" library="rcl" package="C0805" value="0.1uF" x="-7.62" y="-12.065" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="80.01" y="62.23" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-8.89" y="-10.16" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-5.08" y="-10.795" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="U5" library="FormE" package="SOIC8-N_MC" value="MCP2562" x="-3.81" y="-12.065" rot="MR90">
+<element name="U5" library="FormE" package="SOIC8-N_MC" value="MCP2562" x="-3.81" y="-12.065" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="MCP2562FD-E/SN" x="-118.745" y="-44.45" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-1.27" y="-10.16" size="1.27" layer="26" ratio="6" rot="SMR90"/>
 </element>
-<element name="C34" library="rcl" package="C0805" value="0.1uF" x="-10.16" y="7.62" rot="MR90">
+<element name="C34" library="rcl" package="C0805" value="0.1uF" x="-10.16" y="7.62" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-125.095" y="-45.72" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-8.89" y="6.35" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-12.7" y="6.35" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C18" library="rcl" package="C0805" value="22pF" x="32.385" y="-24.13" rot="R180">
+<element name="C18" library="rcl" package="C0805" value="22pF" x="32.385" y="-24.13" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C0805C220K5GACTU" x="109.220003125" y="84.45499375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.48" y="-22.86" size="1.27" layer="25"/>
+<attribute name="VALUE" x="33.655" y="-21.59" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C20" library="rcl" package="C0805" value="22pF" x="32.385" y="-26.67" rot="R180">
+<element name="C20" library="rcl" package="C0805" value="22pF" x="32.385" y="-26.67" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C0805C220K5GACTU" x="115.570003125" y="88.26499375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.7975" y="-26.035" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="33.655" y="-24.13" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C16" library="rcl" package="C0805" value="0.1uF" x="11.43" y="-24.765" rot="R135">
+<element name="C16" library="rcl" package="C0805" value="0.1uF" x="11.43" y="-24.765" smashed="yes" rot="R135">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="133.56148125" y="42.58691875" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="10.16" y="-22.75105" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="14.124075" y="-23.866971875" size="1.27" layer="27" rot="R135"/>
 </element>
-<element name="C17" library="rcl" package="C0805" value="0.1uF" x="26.3525" y="-41.5925" rot="R315">
+<element name="C17" library="rcl" package="C0805" value="0.1uF" x="26.3525" y="-41.5925" smashed="yes" rot="R315">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-105.20825" y="-108.49540625" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="26.3525" y="-42.753553125" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="23.658421875" y="-42.490525" size="1.27" layer="27" rot="R315"/>
 </element>
-<element name="C19" library="rcl" package="C0805" value="1uF" x="9.8425" y="-26.3525" rot="R135">
+<element name="C19" library="rcl" package="C0805" value="1uF" x="9.8425" y="-26.3525" smashed="yes" rot="R135">
 <attribute name="PARTNO" value="*" x="150.83251875" y="40.10139375" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="10.4775" y="-28.36645" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.536575" y="-25.454471875" size="1.27" layer="27" rot="R135"/>
 </element>
-<element name="C21" library="rcl" package="C0805" value="2.2uF" x="27.94" y="-40.005" rot="R315">
+<element name="C21" library="rcl" package="C0805" value="2.2uF" x="27.94" y="-40.005" smashed="yes" rot="R315">
 <attribute name="PARTNO" value="*" x="-122.4792875" y="-106.00988125" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="31.115" y="-39.896053125" size="1.27" layer="25" rot="R225"/>
+<attribute name="VALUE" x="25.245921875" y="-40.903025" size="1.27" layer="27" rot="R315"/>
 </element>
-<element name="C24" library="rcl" package="C0805" value="0.01uF" x="29.5275" y="-38.4175" rot="R315">
+<element name="C24" library="rcl" package="C0805" value="0.01uF" x="29.5275" y="-38.4175" smashed="yes" rot="R315">
 <attribute name="PARTNO" value="*" x="-158.608865625" y="-102.62633125" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="NAME" x="31.4325" y="-38.526446875" size="1.27" layer="25"/>
+<attribute name="VALUE" x="26.833421875" y="-39.315525" size="1.27" layer="27" rot="R315"/>
 </element>
-<element name="C25" library="rcl" package="C0805" value="0.1uF" x="13.0175" y="-23.1775" rot="R135">
+<element name="C25" library="rcl" package="C0805" value="0.1uF" x="13.0175" y="-23.1775" smashed="yes" rot="R135">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="166.579878125" y="75.605315625" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="NAME" x="12.3825" y="-21.16355" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="15.711575" y="-22.279471875" size="1.27" layer="27" rot="R135"/>
 </element>
-<element name="C26" library="rcl" package="C0805" value="0.01uF" x="10.16" y="-38.1" rot="R225">
+<element name="C26" library="rcl" package="C0805" value="0.01uF" x="10.16" y="-38.1" smashed="yes" rot="R225">
 <attribute name="PARTNO" value="*" x="-88.173803125" y="124.891646875" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="NAME" x="8.36395" y="-38.735" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="9.261971875" y="-35.405921875" size="1.27" layer="27" rot="R225"/>
 </element>
-<element name="C27" library="rcl" package="C0805" value="0.1uF" x="11.7475" y="-39.6875" rot="R225">
+<element name="C27" library="rcl" package="C0805" value="0.1uF" x="11.7475" y="-39.6875" smashed="yes" rot="R225">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-86.137290625" y="132.733415625" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="NAME" x="12.27355" y="-41.5925" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.849471875" y="-36.993421875" size="1.27" layer="27" rot="R225"/>
 </element>
-<element name="C28" library="rcl" package="C0805" value="0.01uF" x="8.5725" y="-36.5125" rot="R225">
+<element name="C28" library="rcl" package="C0805" value="0.01uF" x="8.5725" y="-36.5125" smashed="yes" rot="R225">
 <attribute name="PARTNO" value="*" x="-88.863278125" y="145.337684375" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="NAME" x="6.77645" y="-36.5125" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="7.674471875" y="-33.818421875" size="1.27" layer="27" rot="R225"/>
 </element>
-<element name="Y1" library="FormE" package="CSM-3X" value="16MHz" x="36.83" y="-25.4" rot="R90">
+<element name="Y1" library="FormE" package="CSM-3X" value="16MHz" x="36.83" y="-25.4" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="ECS-160-20-3X-TR" x="287.019996875" y="-100.965003125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="39.195" y="-24.305" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="C15" library="rcl" package="C0805" value="DNP/0.1uF" x="41.91" y="-15.875">
+<element name="C15" library="rcl" package="C0805" value="DNP/0.1uF" x="41.91" y="-15.875" smashed="yes">
 <attribute name="PARTNO" value="*" x="-25.4" y="-245.745" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.64" y="-14.605" size="1.27" layer="25"/>
+<attribute name="VALUE" x="40.64" y="-18.415" size="1.27" layer="27"/>
 </element>
-<element name="R13" library="rcl" package="R0805" value="10k" x="38.735" y="-17.78" rot="R90">
+<element name="R13" library="rcl" package="R0805" value="10k" x="38.735" y="-17.78" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="*" x="281.305" y="-75.565" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.465" y="-19.05" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="41.275" y="-18.415" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="J1" library="FormE" package="SAMTEC-FTR-DUALROW" value="" x="19.685" y="-17.78" rot="R90">
+<element name="J1" library="FormE" package="SAMTEC-FTR-DUALROW" value="" x="19.685" y="-17.78" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="M50-3601042" x="313.055" y="-88.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="26.67" y="-13.97" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="LED3" library="FormE" package="CHIP-LED0805" value="GREEN" x="-1.27" y="-27.305" rot="R90">
+<element name="LED3" library="FormE" package="CHIP-LED0805" value="GREEN" x="-1.27" y="-27.305" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="598-8170-107F" x="280.035" y="-139.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="0" y="-28.575" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="0" y="-24.765" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R21" library="adafruit" package="R0805" value="1k" x="-1.27" y="-24.765" rot="R180">
+<element name="R21" library="adafruit" package="R0805" value="1k" x="-1.27" y="-24.765" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-6ENF1001V" x="73.025" y="211.455" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-2.7305" y="-24.1935" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="-0.508" y="-22.479" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R11" library="rcl" package="R0805" value="120R" x="4.445" y="-6.35" rot="MR180">
+<element name="R11" library="rcl" package="R0805" value="120R" x="4.445" y="-6.35" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="ERJ-6ENF1200V" x="4.445" y="-14.605" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="2.54" y="-6.985" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="3.81" y="-3.81" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C14" library="rcl" package="C0805" value="0.1uF" x="4.445" y="-17.78" rot="MR180">
+<element name="C14" library="rcl" package="C0805" value="0.1uF" x="4.445" y="-17.78" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-2.54" y="-19.685" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="2.54" y="-19.05" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="3.175" y="-15.24" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C13" library="rcl" package="C0805" value="0.1uF" x="0.635" y="-12.065" rot="MR270">
+<element name="C13" library="rcl" package="C0805" value="0.1uF" x="0.635" y="-12.065" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-1.27" y="-12.065" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="1.27" y="-14.605" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="3.175" y="-10.795" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="U3" library="FormE" package="SOIC8-N_MC" value="MCP2562" x="4.445" y="-12.065" rot="MR90">
+<element name="U3" library="FormE" package="SOIC8-N_MC" value="MCP2562" x="4.445" y="-12.065" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="MCP2562FD-E/SN" x="-14.605" y="-12.065" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="6.985" y="-10.16" size="1.27" layer="26" ratio="6" rot="SMR90"/>
 </element>
-<element name="C36" library="adafruit" package="C0805" value="0.1uF" x="-24.765" y="11.43" rot="R270">
+<element name="C36" library="adafruit" package="C0805" value="0.1uF" x="-24.765" y="11.43" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-5.08" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-23.876" y="13.081" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-27.051" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R22" library="adafruit" package="R0805" value="54.9k" x="-37.465" y="10.16" rot="MR270">
+<element name="R22" library="adafruit" package="R0805" value="54.9k" x="-37.465" y="10.16" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="ERA-6AEB5492V" x="-51.435" y="24.13" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-38.481" y="11.557" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-35.179" y="10.922" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C37" library="adafruit" package="C0805" value="10uF" x="-27.305" y="11.43" rot="R270">
+<element name="C37" library="adafruit" package="C0805" value="10uF" x="-27.305" y="11.43" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L" x="-13.335" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-26.416" y="13.081" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-29.591" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C38" library="adafruit" package="C0805" value="10uF" x="-29.845" y="11.43" rot="R270">
+<element name="C38" library="adafruit" package="C0805" value="10uF" x="-29.845" y="11.43" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="GRM21BR61E106KA73L" x="-27.305" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-28.956" y="13.081" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-32.131" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C41" library="adafruit" package="C0805" value="8200pF" x="-34.29" y="15.24">
+<element name="C41" library="adafruit" package="C0805" value="8200pF" x="-34.29" y="15.24" smashed="yes">
 <attribute name="PARTNO" value="C0805C822K5RACTU" x="-40.64" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-35.941" y="15.494" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="-35.179" y="12.954" size="1.27" layer="27"/>
 </element>
-<element name="C42" library="adafruit" package="C0805" value="0.1uF" x="-38.1" y="9.525" rot="R270">
+<element name="C42" library="adafruit" package="C0805" value="0.1uF" x="-38.1" y="9.525" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-46.99" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-39.116" y="9.271" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-40.386" y="10.414" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C45" library="adafruit" package="C0805" value="22uF" x="-27.94" y="3.81" rot="R90">
+<element name="C45" library="adafruit" package="C0805" value="22uF" x="-27.94" y="3.81" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012JB1E226M125AC" x="-19.05" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-28.194" y="0.889" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-25.654" y="2.921" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C46" library="adafruit" package="C0805" value="22uF" x="-25.4" y="3.81" rot="R90">
+<element name="C46" library="adafruit" package="C0805" value="22uF" x="-25.4" y="3.81" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012JB1E226M125AC" x="-10.795" y="-2.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-25.654" y="0.889" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-23.114" y="2.921" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C47" library="adafruit" package="C0805" value="22uF" x="-22.86" y="3.81" rot="R90">
+<element name="C47" library="adafruit" package="C0805" value="22uF" x="-22.86" y="3.81" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="C2012JB1E226M125AC" x="-2.54" y="-15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-23.114" y="0.889" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-20.574" y="2.921" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R23" library="adafruit" package="R0805" value="10K" x="-37.465" y="14.605" rot="MR270">
+<element name="R23" library="adafruit" package="R0805" value="10K" x="-37.465" y="14.605" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="ERJ-6ENF1002V" x="-17.145" y="14.605" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-38.481" y="16.637" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="-35.179" y="15.367" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="L3" library="FormE" package="SRP6540" value="4.7uH" x="-33.655" y="3.81" rot="R270">
+<element name="L3" library="FormE" package="SRP6540" value="4.7uH" x="-33.655" y="3.81" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="SRP6540-4R7M" x="-76.835" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-31.19" y="-1.475" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-40.155" y="7.06" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U8" library="FormE" package="TPS562219" value="TPS562219" x="-34.29" y="12.065" rot="R180">
+<element name="U8" library="FormE" package="TPS562219" value="TPS562219" x="-34.29" y="12.065" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="*" x="-5.715" y="60.325" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-33.935" y="10.085" size="1.27" layer="21" rot="R180"/>
+<attribute name="VALUE" x="-31.04" y="15.315" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED4" library="FormE" package="CHIP-LED0805" value="GREEN" x="-38.1" y="0.635">
+<element name="LED4" library="FormE" package="CHIP-LED0805" value="GREEN" x="-38.1" y="0.635" smashed="yes">
 <attribute name="PARTNO" value="598-8170-107F" x="-84.455" y="-49.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.1" y="-3.175" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-35.56" y="-0.635" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R24" library="adafruit" package="R0805" value="1K" x="-40.64" y="3.175" rot="R270">
+<element name="R24" library="adafruit" package="R0805" value="1K" x="-40.64" y="3.175" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ERJ-6ENF1001V" x="-66.675" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-39.751" y="5.588" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-42.926" y="3.937" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U4" library="FormE" package="PQFP-64" value="TM4C123GH6PMI" x="19.685" y="-32.385" rot="R45"/>
-<element name="C29" library="rcl" package="C0805" value="1uF" x="27.305" y="-24.13" rot="R45">
+<element name="U4" library="FormE" package="PQFP-64" value="TM4C123GH6PMI" x="19.685" y="-32.385" smashed="yes" rot="R45">
+<attribute name="NAME" x="12.219078125" y="-31.922771875" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="C29" library="rcl" package="C0805" value="1uF" x="27.305" y="-24.13" smashed="yes" rot="R45">
 <attribute name="PARTNO" value="*" x="27.305" y="-24.13" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="NAME" x="28.683946875" y="-21.59" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="28.203025" y="-26.824075" size="1.27" layer="27" rot="R45"/>
 </element>
-<element name="R12" library="rcl" package="R0805" value="100R" x="41.91" y="-18.415" rot="R180">
+<element name="R12" library="rcl" package="R0805" value="100R" x="41.91" y="-18.415" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="*" x="41.91" y="-18.415" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="43.815" y="-19.685" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="42.545" y="-15.875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C5" library="rcl" package="C0805" value="0.1uF" x="-2.54" y="13.97" rot="MR180">
+<element name="C5" library="rcl" package="C0805" value="0.1uF" x="-2.54" y="13.97" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-11.43" y="13.97" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="-1.27" y="14.9225" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="-3.81" y="16.51" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R8" library="rcl" package="R0805" value="39k" x="1.905" y="13.335" rot="MR270">
+<element name="R8" library="rcl" package="R0805" value="39k" x="1.905" y="13.335" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="ERJ-6ENF3902V" x="8.255" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="1.905" y="15.24" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="4.445" y="13.97" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R9" library="rcl" package="R0805" value="75k" x="4.445" y="13.335" rot="MR90">
+<element name="R9" library="rcl" package="R0805" value="75k" x="4.445" y="13.335" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="ERJ-6ENF7502V" x="1.27" y="13.335" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="5.08" y="15.24" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="1.905" y="12.7" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C9" library="rcl" package="C0805" value="DNP" x="6.985" y="13.335" rot="MR270">
+<element name="C9" library="rcl" package="C0805" value="DNP" x="6.985" y="13.335" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="*" x="10.16" y="30.48" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="8.255" y="15.24" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="9.525" y="14.605" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R6" library="rcl" package="R0805" value="10k" x="10.795" y="-6.35" rot="MR180">
+<element name="R6" library="rcl" package="R0805" value="10k" x="10.795" y="-6.35" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="ERJ-6ENF1002V" x="-6.35" y="28.575" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="13.335" y="-5.715" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="10.16" y="-3.81" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="R5" library="rcl" package="R0805" value="10k" x="3.175" y="9.525" rot="MR180">
+<element name="R5" library="rcl" package="R0805" value="10k" x="3.175" y="9.525" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="ERJ-6ENF1002V" x="3.175" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="1.905" y="8.255" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="2.54" y="12.065" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D3" library="FormE" package="SOD-323" value="MM3Z3V3T1G" x="10.795" y="9.525" rot="MR180">
+<element name="D3" library="FormE" package="SOD-323" value="MM3Z3V3T1G" x="10.795" y="9.525" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="MM3Z3V3T1G" x="-1.905" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="13.335" y="10.16" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="R10" library="rcl" package="R0805" value="270" x="9.525" y="13.335" rot="MR270">
+<element name="R10" library="rcl" package="R0805" value="270" x="9.525" y="13.335" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="ERJ-6ENF2700V" x="59.69" y="27.305" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="10.795" y="11.43" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="12.065" y="13.97" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="U2" library="FormE" package="ADS1232IPW" value="ADS1232IPWR" x="56.515" y="5.08" rot="R180"/>
-<element name="CF3" library="murata-filter" package="NFM21C" value="NFM21C" x="46.355" y="-5.08" rot="R180">
+<element name="U2" library="FormE" package="ADS1232IPW" value="ADS1232IPWR" x="56.515" y="5.08" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.055" y="10.795" size="1.27" layer="25"/>
+</element>
+<element name="CF3" library="murata-filter" package="NFM21C" value="NFM21C" x="46.355" y="-5.08" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="84R0165" x="46.355" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="46.355" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="NFM21CC102R1H3D" x="46.355" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1828795" x="46.355" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="NFM21PC105B1C3D" x="46.355" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="48.133" y="-6.858" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="48.133" y="-2.032" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C11" library="rcl" package="C0805" value="2.2uF" x="55.88" y="-2.54" rot="R180">
+<element name="C11" library="rcl" package="C0805" value="2.2uF" x="55.88" y="-2.54" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="*" x="55.88" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="57.15" y="-3.81" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="57.15" y="0" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C12" library="rcl" package="C0805" value="2.2uF" x="62.23" y="6.985" rot="R270">
+<element name="C12" library="rcl" package="C0805" value="2.2uF" x="62.23" y="6.985" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="*" x="62.23" y="6.985" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="63.5" y="8.255" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="59.69" y="8.255" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C10" library="rcl" package="C0805" value="0.1uF" x="54.61" y="12.7">
+<element name="C10" library="rcl" package="C0805" value="0.1uF" x="54.61" y="12.7" smashed="yes">
 <attribute name="PARTNO" value="*" x="54.61" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="53.34" y="13.97" size="1.27" layer="25"/>
+<attribute name="VALUE" x="53.34" y="10.16" size="1.27" layer="27"/>
 </element>
-<element name="CF4" library="murata-filter" package="NFM21C" value="NFM21C" x="46.355" y="-1.27">
+<element name="CF4" library="murata-filter" package="NFM21C" value="NFM21C" x="46.355" y="-1.27" smashed="yes">
 <attribute name="OC_NEWARK" value="84R0165" x="46.355" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="46.355" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="NFM21CC102R1H3D" x="46.355" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1828795" x="46.355" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="NFM21PC105B1C3D" x="46.355" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="44.577" y="0.508" size="1.27" layer="25"/>
+<attribute name="VALUE" x="44.577" y="-4.318" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="rcl" package="R0805" value="100R" x="42.545" y="-9.525" rot="R180"/>
-<element name="R2" library="rcl" package="R0805" value="100R" x="42.545" y="3.175" rot="R180"/>
-<element name="C6" library="rcl" package="C0805" value="2.2uF" x="50.165" y="-3.175" rot="R90">
+<element name="R1" library="rcl" package="R0805" value="100R" x="42.545" y="-9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.815" y="-10.795" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="43.18" y="-6.985" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R2" library="rcl" package="R0805" value="100R" x="42.545" y="3.175" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.275" y="4.445" size="1.27" layer="25"/>
+<attribute name="VALUE" x="43.18" y="5.715" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C6" library="rcl" package="C0805" value="2.2uF" x="50.165" y="-3.175" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="*" x="50.165" y="-3.175" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="51.1175" y="-1.905" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="52.705" y="-4.445" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C8" library="rcl" package="C0805" value="2.2uF" x="50.165" y="1.27" rot="R90">
+<element name="C8" library="rcl" package="C0805" value="2.2uF" x="50.165" y="1.27" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="*" x="50.165" y="1.27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="51.1175" y="2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="52.705" y="0" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C7" library="rcl" package="C0805" value="2.2uF" x="50.165" y="-7.62" rot="R270">
+<element name="C7" library="rcl" package="C0805" value="2.2uF" x="50.165" y="-7.62" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="*" x="50.165" y="-7.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="51.1175" y="-6.35" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="47.625" y="-6.35" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="CF1" library="murata-filter" package="NFM21C" value="NFM21C" x="43.18" y="13.335">
+<element name="CF1" library="murata-filter" package="NFM21C" value="NFM21C" x="43.18" y="13.335" smashed="yes">
 <attribute name="OC_NEWARK" value="84R0165" x="43.18" y="13.335" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="43.18" y="13.335" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="NFM21CC102R1H3D" x="43.18" y="13.335" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1828795" x="43.18" y="13.335" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="NFM21PC105B1C3D" x="43.18" y="13.335" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.402" y="15.113" size="1.27" layer="25"/>
+<attribute name="VALUE" x="41.402" y="10.287" size="1.27" layer="27"/>
 </element>
-<element name="CF2" library="murata-filter" package="NFM21C" value="NFM21C" x="43.18" y="9.525" rot="R180">
+<element name="CF2" library="murata-filter" package="NFM21C" value="NFM21C" x="43.18" y="9.525" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="84R0165" x="43.18" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="43.18" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="NFM21CC102R1H3D" x="43.18" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1828795" x="43.18" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="NFM21PC105B1C3D" x="43.18" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="44.958" y="7.747" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="44.958" y="12.573" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="0.1uF" x="50.165" y="11.43" rot="R270">
+<element name="C2" library="rcl" package="C0805" value="0.1uF" x="50.165" y="11.43" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="*" x="50.165" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="50.8" y="13.97" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="47.625" y="12.7" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C3" library="rcl" package="C0805" value="100pF" x="47.625" y="13.97" rot="R90">
+<element name="C3" library="rcl" package="C0805" value="100pF" x="47.625" y="13.97" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="*" x="47.625" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.355" y="14.605" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="50.165" y="12.7" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C4" library="rcl" package="C0805" value="100pF" x="47.625" y="8.89" rot="R270">
+<element name="C4" library="rcl" package="C0805" value="100pF" x="47.625" y="8.89" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="*" x="47.625" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="46.99" y="6.35" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="45.085" y="10.16" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C1" library="rcl" package="D/7343-31W" value="100uF" x="41.275" y="-3.175" rot="R270">
+<element name="C1" library="rcl" package="D/7343-31W" value="100uF" x="41.275" y="-3.175" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="T494D107K010AT" x="41.275" y="-3.175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.34" y="-3.65" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="37.7" y="0.475" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="Q1" library="FormE" package="BSS138" value="BSS138" x="10.795" y="-10.16" rot="MR0"/>
-<element name="R7" library="rcl" package="R0805" value="10k" x="10.795" y="-13.97" rot="MR180">
+<element name="Q1" library="FormE" package="BSS138" value="BSS138" x="10.795" y="-10.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="12.7" y="-11.43" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="5.715" y="-12.7" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="R7" library="rcl" package="R0805" value="10k" x="10.795" y="-13.97" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="ERJ-6ENF1002V" x="10.795" y="-13.97" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="10.16" y="-15.24" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="10.16" y="-11.43" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="U1" library="FormE" package="SOT23-5" value="OPA365AIDBVR" x="-2.54" y="10.795" rot="MR270"/>
-<element name="Y2" library="FormE" package="AB26TRQ" value="32.768kHz" x="36.83" y="-31.75" rot="R180">
+<element name="U1" library="FormE" package="SOT23-5" value="OPA365AIDBVR" x="-2.54" y="10.795" smashed="yes" rot="MR270">
+<attribute name="NAME" x="-3.175" y="8.89" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="Y2" library="FormE" package="AB26TRQ" value="32.768kHz" x="36.83" y="-31.75" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="AB26TRQ-32.768KHZ-T" x="36.83" y="-31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="38.735" y="-33.02" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="C22" library="rcl" package="C0805" value="22pF" x="32.385" y="-29.845" rot="R180">
+<element name="C22" library="rcl" package="C0805" value="22pF" x="32.385" y="-29.845" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C0805C220K5GACTU" x="32.385" y="-29.845" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="30.7975" y="-29.21" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="33.655" y="-27.305" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C23" library="rcl" package="C0805" value="22pF" x="32.385" y="-33.655" rot="R180">
+<element name="C23" library="rcl" package="C0805" value="22pF" x="32.385" y="-33.655" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="C0805C220K5GACTU" x="32.385" y="-33.655" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="33.655" y="-34.925" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="33.655" y="-31.115" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U6" library="FormE" package="SOT23-5" value="LM3671MF-3.3/NOPB" x="0.635" y="-21.59" rot="R270"/>
-<element name="C39" library="rcl" package="C0805" value="4.7uF" x="-3.81" y="-20.955" rot="R270"/>
-<element name="C40" library="rcl" package="C0805" value="10uF" x="3.81" y="-24.765" rot="R180"/>
-<element name="L1" library="FormE" package="0805" value="" x="5.08" y="-21.59" rot="R270">
+<element name="U6" library="FormE" package="SOT23-5" value="LM3671MF-3.3/NOPB" x="0.635" y="-21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="0" y="-19.685" size="1.27" layer="25"/>
+</element>
+<element name="C39" library="rcl" package="C0805" value="4.7uF" x="-3.81" y="-20.955" smashed="yes" rot="R270">
+<attribute name="NAME" x="-5.715" y="-19.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-6.35" y="-19.685" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C40" library="rcl" package="C0805" value="10uF" x="3.81" y="-24.765" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.715" y="-26.035" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="5.08" y="-22.225" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="L1" library="FormE" package="0805" value="" x="5.08" y="-21.59" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="74479775222" x="5.08" y="-21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="5.715" y="-19.685" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="2.54" y="-20.955" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="H1" library="FormE" package="776228-4" value="776228-4" x="8.255" y="0.635"/>
-<element name="S1" library="FormE" package="TE-147873-2" value="147873-2" x="46.355" y="-17.145" rot="R270">
+<element name="H1" library="FormE" package="776228-4" value="776228-4" x="8.255" y="0.635" smashed="yes">
+<attribute name="NAME" x="-6.445" y="7.05" size="1.27" layer="25"/>
+</element>
+<element name="S1" library="FormE" package="TE-147873-2" value="147873-2" x="46.355" y="-17.145" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="147873-2" x="46.355" y="-17.145" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="48.895" y="-14.605" size="1.27" layer="25" rot="R270"/>
 </element>
 </elements>
 <signals>
