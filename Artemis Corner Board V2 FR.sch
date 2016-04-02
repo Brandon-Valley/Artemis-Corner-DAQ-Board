@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2583,63 +2583,63 @@ Some male, some female. Watch your step!</description>
 <devices>
 <device name="" package="PQFP-64">
 <connects>
-<connect gate="IO" pin="PA0/CAN1RX/U0RX" pad="17"/>
-<connect gate="IO" pin="PA1/CAN1TX/U0TX" pad="18"/>
-<connect gate="IO" pin="PA2/SSI0CLK" pad="19"/>
-<connect gate="IO" pin="PA3/SSI0FSS" pad="20"/>
-<connect gate="IO" pin="PA4/SSI0RX" pad="21"/>
-<connect gate="IO" pin="PA5/SSI0TX" pad="22"/>
-<connect gate="IO" pin="PA6/I2C1SCL/M1PWM2" pad="23"/>
-<connect gate="IO" pin="PA7/I2C1SDA/M1PWM3" pad="24"/>
-<connect gate="IO" pin="PB0/T2CCP0/U1RX/USB0ID" pad="45"/>
-<connect gate="IO" pin="PB1/T2CCP1/U1TX/USB0VBUS" pad="46"/>
-<connect gate="IO" pin="PB2/I2C0SCL/T3CCP0" pad="47"/>
-<connect gate="IO" pin="PB3/I2C0SDA/T3CCP1" pad="48"/>
-<connect gate="IO" pin="PB4/AIN10/CAN0RX/M0PWM2/SSI2CLK/T1CCP0" pad="58"/>
-<connect gate="IO" pin="PB5/AIN11/CAN0TX/M0PWM3/SSI2FSS/T1CCP1" pad="57"/>
-<connect gate="IO" pin="PB6/M0PWM0/SSI2RX/T0CCP0" pad="1"/>
-<connect gate="IO" pin="PB7/M0PWM1/SSI2TX/T0CCP1" pad="4"/>
-<connect gate="IO" pin="PC0/SWCLK/T4CCP0/TCK" pad="52"/>
-<connect gate="IO" pin="PC1/SWDIO/T4CCP1/TMS" pad="51"/>
-<connect gate="IO" pin="PC2/T5CCP0/TDI" pad="50"/>
-<connect gate="IO" pin="PC3/SWO/T5CCP1/TDO" pad="49"/>
-<connect gate="IO" pin="PC4/C1-/IDX1/M0PWM6/U1RTS/U1RX/U4RX/WT0CCP0" pad="16"/>
-<connect gate="IO" pin="PC5/C1+/M0PWM7/PHA1/U1CTS/U1TX/U4TX/WT0CCP1" pad="15"/>
-<connect gate="IO" pin="PC6/C0+/PHB1/U3RX/USB0EPEN/WT1CCP0" pad="14"/>
-<connect gate="IO" pin="PC7/C0-/U3TX/USB0PFLT/WT1CCP1" pad="13"/>
-<connect gate="IO" pin="PD0/AIN7/I2C3SCL/M0PWM6/M1PWM0/SSI1CLK/SSI3CLK/WT2CCP0" pad="61"/>
-<connect gate="IO" pin="PD1/AIN6/I2C3SDA/M0PWM7/M1PWM1/SSI1FSS/SSI3FSS/WT2CCP1" pad="62"/>
-<connect gate="IO" pin="PD2/AIN5/M0FAULT0/SSI1RX/SSI3RX/USB0EPEN/WT3CCP0" pad="63"/>
-<connect gate="IO" pin="PD3/AIN4/IDX0/SSI1TX/SSI3TX/USB0PFLT/WT2CCP1" pad="64"/>
-<connect gate="IO" pin="PD4/U6RX/USB0DM/WT4CCP0" pad="43"/>
-<connect gate="IO" pin="PD5/U6TX/USB0DP/WT4CCP1" pad="44"/>
-<connect gate="IO" pin="PD6/M0FAULT0/PHA0/U2RX/WT5CCP0" pad="53"/>
-<connect gate="IO" pin="PD7/NMI/PHB0/U2TX/WT5CCP1" pad="10"/>
-<connect gate="IO" pin="PE0/AIN3/U7RX" pad="9"/>
-<connect gate="IO" pin="PE1/AIN2/U7TX" pad="8"/>
-<connect gate="IO" pin="PE2/AIN1" pad="7"/>
-<connect gate="IO" pin="PE3/AIN0" pad="6"/>
-<connect gate="IO" pin="PE4/AIN9/CAN0RX/I2C2SCL/M0PWM4/M1PWM2/U5RX" pad="59"/>
-<connect gate="IO" pin="PE5/AIN8/CAN0TX/I2C2SDA/M0PWM5/M1PWM3/U5TX" pad="60"/>
-<connect gate="IO" pin="PF0/C0O/CAN0RX/M1PWM4/NMI/PHA0/SSI1RX/T0CCP0/U1RTS" pad="28"/>
-<connect gate="IO" pin="PF1/C1O/M1PWM5/PHB0/SSI1TX/T0CCP1/TRD1/U1CTS" pad="29"/>
-<connect gate="IO" pin="PF2/M0FAULT0/M1PWM6/SSI1CLK/T1CCP0/TRC0" pad="30"/>
-<connect gate="IO" pin="PF3/CAN0TX/M1PWM7/SSI1FSS/T1CCP1/TRCLK" pad="31"/>
-<connect gate="IO" pin="PF4/IDX0/M1FAULT0/T2CCP0/USB0EPEN" pad="5"/>
-<connect gate="P" pin="!HIB!" pad="33"/>
-<connect gate="P" pin="!RST!" pad="38"/>
-<connect gate="P" pin="!WAKE!" pad="32"/>
-<connect gate="P" pin="GND" pad="12 27 39 55"/>
-<connect gate="P" pin="GNDA" pad="3"/>
-<connect gate="P" pin="GNDX" pad="35"/>
-<connect gate="P" pin="OSC0" pad="40"/>
-<connect gate="P" pin="OSC1" pad="41"/>
-<connect gate="P" pin="VBAT" pad="37"/>
-<connect gate="P" pin="VDD" pad="11 26 42 54"/>
-<connect gate="P" pin="VDDA" pad="2"/>
-<connect gate="P" pin="VDDC" pad="25 56"/>
-<connect gate="P" pin="XOSC0" pad="34"/>
-<connect gate="P" pin="XOSC1" pad="36"/>
+<connect gate="IO" pin="PA0/CAN1RX/U0RX" pad="17 MASK-17"/>
+<connect gate="IO" pin="PA1/CAN1TX/U0TX" pad="18 MASK-18"/>
+<connect gate="IO" pin="PA2/SSI0CLK" pad="19 MASK-19"/>
+<connect gate="IO" pin="PA3/SSI0FSS" pad="20 MASK-20"/>
+<connect gate="IO" pin="PA4/SSI0RX" pad="21 MASK-21"/>
+<connect gate="IO" pin="PA5/SSI0TX" pad="22 MASK-22"/>
+<connect gate="IO" pin="PA6/I2C1SCL/M1PWM2" pad="23 MASK-23"/>
+<connect gate="IO" pin="PA7/I2C1SDA/M1PWM3" pad="24 MASK-24"/>
+<connect gate="IO" pin="PB0/T2CCP0/U1RX/USB0ID" pad="45 MASK-45"/>
+<connect gate="IO" pin="PB1/T2CCP1/U1TX/USB0VBUS" pad="46 MASK-46"/>
+<connect gate="IO" pin="PB2/I2C0SCL/T3CCP0" pad="47 MASK-47"/>
+<connect gate="IO" pin="PB3/I2C0SDA/T3CCP1" pad="48 MASK-48"/>
+<connect gate="IO" pin="PB4/AIN10/CAN0RX/M0PWM2/SSI2CLK/T1CCP0" pad="58 MASK-58"/>
+<connect gate="IO" pin="PB5/AIN11/CAN0TX/M0PWM3/SSI2FSS/T1CCP1" pad="57 MASK-57"/>
+<connect gate="IO" pin="PB6/M0PWM0/SSI2RX/T0CCP0" pad="1 MASK-1"/>
+<connect gate="IO" pin="PB7/M0PWM1/SSI2TX/T0CCP1" pad="4 MASK-4"/>
+<connect gate="IO" pin="PC0/SWCLK/T4CCP0/TCK" pad="52 MASK-52"/>
+<connect gate="IO" pin="PC1/SWDIO/T4CCP1/TMS" pad="51 MASK-51"/>
+<connect gate="IO" pin="PC2/T5CCP0/TDI" pad="50 MASK-50"/>
+<connect gate="IO" pin="PC3/SWO/T5CCP1/TDO" pad="49 MASK-49"/>
+<connect gate="IO" pin="PC4/C1-/IDX1/M0PWM6/U1RTS/U1RX/U4RX/WT0CCP0" pad="16 MASK-16"/>
+<connect gate="IO" pin="PC5/C1+/M0PWM7/PHA1/U1CTS/U1TX/U4TX/WT0CCP1" pad="15 MASK-15"/>
+<connect gate="IO" pin="PC6/C0+/PHB1/U3RX/USB0EPEN/WT1CCP0" pad="14 MASK-14"/>
+<connect gate="IO" pin="PC7/C0-/U3TX/USB0PFLT/WT1CCP1" pad="13 MASK-13"/>
+<connect gate="IO" pin="PD0/AIN7/I2C3SCL/M0PWM6/M1PWM0/SSI1CLK/SSI3CLK/WT2CCP0" pad="61 MASK-61"/>
+<connect gate="IO" pin="PD1/AIN6/I2C3SDA/M0PWM7/M1PWM1/SSI1FSS/SSI3FSS/WT2CCP1" pad="62 MASK-62"/>
+<connect gate="IO" pin="PD2/AIN5/M0FAULT0/SSI1RX/SSI3RX/USB0EPEN/WT3CCP0" pad="63 MASK-63"/>
+<connect gate="IO" pin="PD3/AIN4/IDX0/SSI1TX/SSI3TX/USB0PFLT/WT2CCP1" pad="64 MASK-64"/>
+<connect gate="IO" pin="PD4/U6RX/USB0DM/WT4CCP0" pad="43 MASK-43"/>
+<connect gate="IO" pin="PD5/U6TX/USB0DP/WT4CCP1" pad="44 MASK-44"/>
+<connect gate="IO" pin="PD6/M0FAULT0/PHA0/U2RX/WT5CCP0" pad="53 MASK-53"/>
+<connect gate="IO" pin="PD7/NMI/PHB0/U2TX/WT5CCP1" pad="10 MASK-10"/>
+<connect gate="IO" pin="PE0/AIN3/U7RX" pad="9 MASK-9"/>
+<connect gate="IO" pin="PE1/AIN2/U7TX" pad="8 MASK-8"/>
+<connect gate="IO" pin="PE2/AIN1" pad="7 MASK-7"/>
+<connect gate="IO" pin="PE3/AIN0" pad="6 MASK-6"/>
+<connect gate="IO" pin="PE4/AIN9/CAN0RX/I2C2SCL/M0PWM4/M1PWM2/U5RX" pad="59 MASK-59"/>
+<connect gate="IO" pin="PE5/AIN8/CAN0TX/I2C2SDA/M0PWM5/M1PWM3/U5TX" pad="60 MASK-60"/>
+<connect gate="IO" pin="PF0/C0O/CAN0RX/M1PWM4/NMI/PHA0/SSI1RX/T0CCP0/U1RTS" pad="28 MASK-28"/>
+<connect gate="IO" pin="PF1/C1O/M1PWM5/PHB0/SSI1TX/T0CCP1/TRD1/U1CTS" pad="29 MASK-29"/>
+<connect gate="IO" pin="PF2/M0FAULT0/M1PWM6/SSI1CLK/T1CCP0/TRC0" pad="30 MASK-30"/>
+<connect gate="IO" pin="PF3/CAN0TX/M1PWM7/SSI1FSS/T1CCP1/TRCLK" pad="31 MASK-31"/>
+<connect gate="IO" pin="PF4/IDX0/M1FAULT0/T2CCP0/USB0EPEN" pad="5 MASK-5"/>
+<connect gate="P" pin="!HIB!" pad="33 MASK-33"/>
+<connect gate="P" pin="!RST!" pad="38 MASK-38"/>
+<connect gate="P" pin="!WAKE!" pad="32 MASK-32"/>
+<connect gate="P" pin="GND" pad="12 27 39 55 MASK-12 MASK-27 MASK-39 MASK-55"/>
+<connect gate="P" pin="GNDA" pad="3 MASK-3"/>
+<connect gate="P" pin="GNDX" pad="35 MASK-35"/>
+<connect gate="P" pin="OSC0" pad="40 MASK-40"/>
+<connect gate="P" pin="OSC1" pad="41 MASK-41"/>
+<connect gate="P" pin="VBAT" pad="37 MASK-37"/>
+<connect gate="P" pin="VDD" pad="11 26 42 54 MASK-11 MASK-26 MASK-42 MASK-54"/>
+<connect gate="P" pin="VDDA" pad="2 MASK-2"/>
+<connect gate="P" pin="VDDC" pad="25 56 MASK-25 MASK-56"/>
+<connect gate="P" pin="XOSC0" pad="34 MASK-34"/>
+<connect gate="P" pin="XOSC1" pad="36 MASK-36"/>
 </connects>
 <technologies>
 <technology name="">
@@ -20492,7 +20492,7 @@ Source: http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0111S0109NFM3DC.pdf
 <part name="C39" library="rcl" deviceset="C-US" device="C0805" value="4.7uF"/>
 <part name="C40" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="FormE" deviceset="L0805" device="">
+<part name="L1" library="FormE" deviceset="L0805" device="" value="2.2uH">
 <attribute name="PARTNO" value="74479775222"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -20568,7 +20568,7 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 <text x="-495.3" y="172.72" size="1.27" layer="97" rot="MR0">GLV battery GND</text>
 <text x="264.16" y="210.82" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="-205.74" y="139.7" size="1.778" layer="97">NC</text>
-<text x="810.26" y="172.72" size="1.778" layer="97">74479775222</text>
+<text x="810.26" y="170.18" size="1.778" layer="97">74479775222</text>
 </plain>
 <instances>
 <instance part="P+1" gate="VCC" x="-571.5" y="205.74" rot="MR0"/>
@@ -22389,8 +22389,19 @@ http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,276.86,241.3,U4,VSS,GND,,,"/>
-<approved hash="104,1,276.86,238.76,U4,VDD,+5V,,,"/>
+<approved hash="104,1,624.84,223.52,U9,VCC,+5V,,,"/>
+<approved hash="202,1,624.84,210.82,U9,OSCI,,,,"/>
+<approved hash="202,1,596.9,215.9,U9,!CTS,,,,"/>
+<approved hash="202,1,596.9,210.82,U9,!DSR,,,,"/>
+<approved hash="202,1,596.9,208.28,U9,!DCD,,,,"/>
+<approved hash="202,1,596.9,205.74,U9,!RI,,,,"/>
+<approved hash="104,1,624.84,220.98,U9,VCCIO,+3V3,,,"/>
+<approved hash="104,1,137.16,144.78,U5,VSS,GND,,,"/>
+<approved hash="104,1,137.16,142.24,U5,VDD,+5V,,,"/>
+<approved hash="104,1,452.12,91.44,U3,VSS,GND,,,"/>
+<approved hash="104,1,452.12,88.9,U3,VDD,+5V,,,"/>
+<approved hash="113,1,678.18,204.512,JP2,,,,,"/>
+<approved hash="113,1,271.78,295.127,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
