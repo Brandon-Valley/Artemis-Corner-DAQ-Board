@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="11" fill="1" visible="no" active="yes"/>
@@ -52,11 +52,11 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -164,9 +164,9 @@
 <wire x1="-46.694384375" y1="2.71310625" x2="-19.856503125" y2="-19.685" width="0" layer="20"/>
 <wire x1="-6.985" y1="-30.427175" x2="4.35978125" y2="-39.895196875" width="0" layer="20"/>
 <wire x1="4.35978125" y1="-39.895196875" x2="36.752653125" y2="-38.7208125" width="0" layer="20" curve="83.847382"/>
-<hole x="-45.085" y="9.525" drill="3.81"/>
-<hole x="76.835" y="10.16" drill="3.81"/>
-<hole x="5.08" y="-32.385" drill="3.81"/>
+<hole x="-45.085" y="9.525" drill="4.3053"/>
+<hole x="76.835" y="10.16" drill="4.3053"/>
+<hole x="5.08" y="-32.385" drill="4.3053"/>
 <wire x1="-19.856503125" y1="-19.685" x2="-6.985" y2="-19.685" width="0" layer="20"/>
 <wire x1="-6.985" y1="-19.685" x2="-6.985" y2="-30.427175" width="0" layer="20"/>
 <text x="69.215" y="10.795" size="1.778" layer="22" rot="MR0">MISSOURI S&amp;T
@@ -3698,15 +3698,15 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-19.685" y="13.97" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="-20.955" y="11.43" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C33" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="3.81" smashed="yes" rot="MR90">
-<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-72.39" y="-42.545" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-24.13" y="6.35" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="-26.035" y="2.54" size="1.27" layer="28" rot="MR90"/>
+<element name="C33" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="5.08" smashed="yes" rot="MR90">
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-72.39" y="-41.275" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-24.13" y="7.62" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-26.035" y="3.81" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="C32" library="rcl" package="C0805" value="4.7uF" x="-26.035" y="3.81" smashed="yes" rot="MR90">
-<attribute name="PARTNO" value="GRM21BR71A475KA73K" x="-81.28" y="-35.56" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-26.67" y="6.35" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="-28.575" y="2.54" size="1.27" layer="28" rot="MR90"/>
+<element name="C32" library="rcl" package="C0805" value="4.7uF" x="-26.035" y="5.08" smashed="yes" rot="MR90">
+<attribute name="PARTNO" value="GRM21BR71A475KA73K" x="-81.28" y="-34.29" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="-26.67" y="7.62" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-28.575" y="3.81" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C35" library="rcl" package="C0805" value="0.1uF" x="-23.495" y="-1.27" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GRM21BR71E104KA01L" x="38.1" y="66.04" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3853,75 +3853,75 @@ einem neuen Namen ab.</description>
 <attribute name="PARTNO" value="MCP2562FD-E/SN" x="-14.605" y="-12.065" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="6.985" y="-10.16" size="1.27" layer="26" ratio="6" rot="SMR90"/>
 </element>
-<element name="C36" library="adafruit" package="C0805" value="0.1uF" x="-24.765" y="11.43" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-5.08" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-23.876" y="13.081" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-27.051" y="12.319" size="1.27" layer="27" rot="R270"/>
+<element name="C36" library="adafruit" package="C0805" value="0.1uF" x="-23.495" y="11.43" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-3.81" y="11.43" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-22.606" y="13.081" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-25.781" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R22" library="adafruit" package="R0805" value="54.9k" x="-36.83" y="10.16" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="ERA-6AEB5492V" x="-50.8" y="24.13" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-37.084" y="11.938" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="-34.544" y="10.922" size="1.27" layer="28" rot="MR270"/>
+<element name="R22" library="adafruit" package="R0805" value="54.9k" x="-39.37" y="9.525" smashed="yes" rot="MR270">
+<attribute name="PARTNO" value="ERA-6AEB5492V" x="-53.34" y="23.495" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-38.354" y="12.573" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-37.084" y="10.287" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="C37" library="adafruit" package="C0805" value="10uF" x="-27.305" y="11.43" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L" x="-13.335" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-26.416" y="13.081" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-29.591" y="12.319" size="1.27" layer="27" rot="R270"/>
+<element name="C37" library="adafruit" package="C0805" value="10uF" x="-26.035" y="11.43" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="GRM21BR61E106KA73L" x="-12.065" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-25.146" y="13.081" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-28.321" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C38" library="adafruit" package="C0805" value="10uF" x="-29.845" y="11.43" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="GRM21BR61E106KA73L" x="-27.305" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-28.956" y="13.081" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-32.131" y="12.319" size="1.27" layer="27" rot="R270"/>
+<element name="C38" library="adafruit" package="C0805" value="10uF" x="-28.575" y="11.43" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="GRM21BR61E106KA73L" x="-26.035" y="32.385" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-27.686" y="13.081" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-30.861" y="12.319" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C41" library="adafruit" package="C0805" value="8200pF" x="-34.29" y="15.24" smashed="yes">
-<attribute name="PARTNO" value="C0805C822K5RACTU" x="-40.64" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.941" y="15.494" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="-35.179" y="12.954" size="1.27" layer="27"/>
+<element name="C41" library="adafruit" package="C0805" value="8200pF" x="-35.56" y="15.24" smashed="yes">
+<attribute name="PARTNO" value="C0805C822K5RACTU" x="-41.91" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-33.274" y="14.986" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-36.449" y="12.954" size="1.27" layer="27"/>
 </element>
-<element name="C42" library="adafruit" package="C0805" value="0.1uF" x="-38.1" y="9.525" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-46.99" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-39.116" y="9.906" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-40.386" y="10.414" size="1.27" layer="27" rot="R270"/>
+<element name="C42" library="adafruit" package="C0805" value="0.1uF" x="-37.465" y="7.62" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="GRM21BR71E104KA01L" x="-46.355" y="14.605" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-38.481" y="6.096" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-39.751" y="8.509" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C45" library="adafruit" package="C0805" value="22uF" x="-27.94" y="3.81" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="C2012JB1E226M125AC" x="-19.05" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-28.194" y="0.889" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="-25.654" y="2.921" size="1.27" layer="27" rot="R90"/>
+<element name="C45" library="adafruit" package="C0805" value="22uF" x="-28.575" y="0.635" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="C2012JB1E226M125AC" x="-19.685" y="0.635" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-28.321" y="2.921" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-26.289" y="-0.254" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C46" library="adafruit" package="C0805" value="22uF" x="-25.4" y="3.81" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="C2012JB1E226M125AC" x="-10.795" y="-2.54" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-25.654" y="0.889" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="-23.114" y="2.921" size="1.27" layer="27" rot="R90"/>
+<element name="C46" library="adafruit" package="C0805" value="22uF" x="-26.035" y="0.635" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="C2012JB1E226M125AC" x="-11.43" y="-5.715" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-25.781" y="2.921" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-23.749" y="-0.254" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C47" library="adafruit" package="C0805" value="22uF" x="-22.86" y="3.81" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="C2012JB1E226M125AC" x="-2.54" y="-15.24" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-23.114" y="0.889" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="-20.574" y="2.921" size="1.27" layer="27" rot="R90"/>
+<element name="C47" library="adafruit" package="C0805" value="22uF" x="-23.495" y="0.635" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="C2012JB1E226M125AC" x="-3.175" y="-18.415" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-22.606" y="2.921" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-21.209" y="-0.254" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R23" library="adafruit" package="R0805" value="10K" x="-39.37" y="10.16" smashed="yes" rot="MR90">
-<attribute name="PARTNO" value="ERJ-6ENF1002V" x="-59.69" y="10.16" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="-40.259" y="11.938" size="1.27" layer="26" rot="MR90"/>
-<attribute name="VALUE" x="-41.656" y="9.398" size="1.27" layer="28" rot="MR90"/>
+<element name="R23" library="adafruit" package="R0805" value="10K" x="-39.37" y="13.97" smashed="yes" rot="MR270">
+<attribute name="PARTNO" value="ERJ-6ENF1002V" x="-19.05" y="13.97" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="-38.354" y="8.128" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="-37.084" y="14.732" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="L3" library="FormE" package="SRP6540" value="4.7uH" x="-33.655" y="3.81" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="SRP6540-4R7M" x="-76.835" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-31.19" y="-1.475" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-40.155" y="7.06" size="1.27" layer="27" rot="R270"/>
+<element name="L3" library="FormE" package="SRP6540" value="4.7uH" x="-33.655" y="0.635" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="SRP6540-4R7M" x="-76.835" y="10.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-37.26" y="0.56" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-40.155" y="3.885" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U8" library="FormE" package="TPS562219" value="TPS562219" x="-34.29" y="12.065" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="*" x="-5.715" y="60.325" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-33.935" y="10.085" size="1.27" layer="21" rot="R180"/>
-<attribute name="VALUE" x="-31.04" y="15.315" size="1.27" layer="27" rot="R180"/>
+<element name="U8" library="FormE" package="TPS562219" value="TPS562219" x="-35.56" y="12.065" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="*" x="-6.985" y="60.325" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-33.3" y="9.45" size="1.27" layer="21" rot="R180"/>
+<attribute name="VALUE" x="-32.31" y="15.315" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED4" library="FormE" package="CHIP-LED0805" value="GREEN" x="-38.1" y="1.27" smashed="yes">
-<attribute name="PARTNO" value="598-8170-107F" x="-84.455" y="-48.895" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-38.1" y="-2.54" size="1.27" layer="25"/>
-<attribute name="VALUE" x="-35.56" y="0" size="1.27" layer="27" rot="R90"/>
+<element name="LED4" library="FormE" package="CHIP-LED0805" value="GREEN" x="-25.4" y="-6.35" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="598-8170-107F" x="20.955" y="43.815" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-24.13" y="-5.08" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-27.94" y="-5.08" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R24" library="adafruit" package="R0805" value="1K" x="-40.64" y="3.81" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="ERJ-6ENF1001V" x="-66.675" y="33.655" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-40.386" y="6.223" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-42.926" y="4.572" size="1.27" layer="27" rot="R270"/>
+<element name="R24" library="adafruit" package="R0805" value="1K" x="-27.94" y="-6.35" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="ERJ-6ENF1001V" x="-53.975" y="23.495" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-28.956" y="-7.747" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-30.226" y="-5.588" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U4" library="FormE" package="PQFP-64" value="TM4C123GH6PMI" x="19.685" y="-32.385" smashed="yes" rot="R45">
 <attribute name="NAME" x="12.219078125" y="-31.922771875" size="1.27" layer="25" rot="R180"/>
@@ -4232,27 +4232,27 @@ einem neuen Namen ab.</description>
 <contactref element="H1" pad="P$11"/>
 <contactref element="H1" pad="P$14"/>
 <contactref element="H1" pad="P$21"/>
-<via x="-39.6875" y="7.9375" extent="1-16" drill="0.5"/>
-<wire x1="-33.44" y1="15.24" x2="-32.385" y2="15.24" width="0.254" layer="1"/>
-<via x="-32.385" y="15.24" extent="1-16" drill="0.5"/>
-<via x="-29.845" y="8.89" extent="1-16" drill="0.5"/>
-<via x="-27.305" y="8.89" extent="1-16" drill="0.5"/>
-<via x="-24.765" y="8.89" extent="1-16" drill="0.5"/>
-<via x="-22.86" y="6.35" extent="1-16" drill="0.5"/>
-<via x="-25.4" y="6.35" extent="1-16" drill="0.5"/>
-<via x="-27.94" y="6.35" extent="1-16" drill="0.5"/>
+<via x="-39.37" y="16.1925" extent="1-16" drill="0.5"/>
+<wire x1="-34.71" y1="15.24" x2="-33.655" y2="15.24" width="0.254" layer="1"/>
+<via x="-33.655" y="15.24" extent="1-16" drill="0.5"/>
+<via x="-26.035" y="2.54" extent="1-16" drill="0.5"/>
+<via x="-26.035" y="8.89" extent="1-16" drill="0.5"/>
+<via x="-23.495" y="8.89" extent="1-16" drill="0.5"/>
+<via x="-23.495" y="6.985" extent="1-16" drill="0.5"/>
+<via x="-28.575" y="8.89" extent="1-16" drill="0.5"/>
+<via x="-28.575" y="2.54" extent="1-16" drill="0.5"/>
 <polygon width="0.254" layer="1" rank="6">
 <vertex x="-21.59" y="10.795"/>
-<vertex x="-31.115" y="10.795"/>
-<vertex x="-31.4325" y="11.1125"/>
-<vertex x="-33.02" y="11.1125"/>
-<vertex x="-33.02" y="8.255"/>
-<vertex x="-29.845" y="5.08"/>
-<vertex x="-29.845" y="4.445"/>
-<vertex x="-21.59" y="4.445"/>
+<vertex x="-32.385" y="10.795"/>
+<vertex x="-32.7025" y="11.1125"/>
+<vertex x="-34.29" y="11.1125"/>
+<vertex x="-34.29" y="6.35"/>
+<vertex x="-31.115" y="3.175"/>
+<vertex x="-31.115" y="2.54"/>
+<vertex x="-21.59" y="2.54"/>
 </polygon>
-<wire x1="-40.64" y1="4.81" x2="-40.64" y2="5.715" width="0.254" layer="1"/>
-<via x="-40.64" y="5.715" extent="1-16" drill="0.5"/>
+<wire x1="-27.94" y1="-5.35" x2="-27.94" y2="-4.445" width="0.254" layer="1"/>
+<via x="-27.94" y="-4.445" extent="1-16" drill="0.5"/>
 <wire x1="9.170746875" y1="-25.680746875" x2="8.5725" y2="-25.0825" width="0.1524" layer="1"/>
 <via x="8.5725" y="-25.0825" extent="1-16" drill="0.5"/>
 <wire x1="10.758246875" y1="-24.093246875" x2="10.16" y2="-23.495" width="0.1524" layer="1"/>
@@ -4378,6 +4378,11 @@ einem neuen Namen ab.</description>
 <contactref element="U4" pad="MASK-27"/>
 <contactref element="U4" pad="MASK-39"/>
 <contactref element="U4" pad="MASK-55"/>
+<via x="-34.925" y="10.16" extent="1-16" drill="0.5"/>
+<via x="-33.655" y="10.16" extent="1-16" drill="0.5"/>
+<via x="-36.195" y="10.16" extent="1-16" drill="0.5"/>
+<via x="-26.035" y="6.985" extent="1-16" drill="0.5"/>
+<via x="-23.495" y="2.54" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="+5V">
 <contactref element="C32" pad="1"/>
@@ -4407,21 +4412,15 @@ einem neuen Namen ab.</description>
 <contactref element="H1" pad="P$13"/>
 <contactref element="H1" pad="P$7"/>
 <polygon width="0.254" layer="1" rank="3">
-<vertex x="-35.56" y="3.175"/>
-<vertex x="-21.59" y="3.175"/>
-<vertex x="-21.59" y="-1.905"/>
-<vertex x="-35.56" y="-1.905"/>
+<vertex x="-33.655" y="0"/>
+<vertex x="-20.955" y="0"/>
+<vertex x="-20.955" y="-5.715"/>
+<vertex x="-33.02" y="-5.715"/>
+<vertex x="-34.29" y="-4.445"/>
+<vertex x="-34.29" y="-0.635"/>
 </polygon>
-<wire x1="-36.83" y1="9.16" x2="-37.465" y2="2.54" width="0.254" layer="16"/>
-<wire x1="-37.465" y1="2.54" x2="-36.195" y2="1.27" width="0.254" layer="16"/>
-<wire x1="-36.195" y1="1.27" x2="-27.94" y2="1.27" width="0.254" layer="16"/>
-<via x="-27.94" y="1.27" extent="1-16" drill="0.5"/>
-<wire x1="-38.1" y1="0.22" x2="-38.1" y2="-0.635" width="0.254" layer="1"/>
-<wire x1="-38.1" y1="-0.635" x2="-36.83" y2="-1.905" width="0.254" layer="1"/>
-<wire x1="-36.83" y1="-1.905" x2="-35.56" y2="-1.905" width="0.254" layer="1"/>
-<wire x1="-35.56" y1="-1.905" x2="-35.2425" y2="-1.5875" width="0.254" layer="1"/>
-<via x="-25.4" y="1.27" extent="1-16" drill="0.5"/>
-<via x="-22.86" y="1.27" extent="1-16" drill="0.5"/>
+<via x="-24.765" y="4.1275" extent="1-16" drill="0.5"/>
+<via x="-21.59" y="-1.27" extent="1-16" drill="0.5"/>
 <polygon width="0.1524" layer="15" rank="6">
 <vertex x="-53.975" y="19.685"/>
 <vertex x="-53.975" y="-46.99"/>
@@ -4460,12 +4459,21 @@ einem neuen Namen ab.</description>
 <wire x1="56.515" y1="-1.27" x2="56.83" y2="-1.585" width="0.1524" layer="1"/>
 <wire x1="56.83" y1="-1.585" x2="56.83" y2="-2.54" width="0.1524" layer="1"/>
 <via x="56.515" y="-1.27" extent="1-16" drill="0.5"/>
-<wire x1="-20.135" y1="3.47" x2="-21.93" y2="3.47" width="0.254" layer="16"/>
-<wire x1="-21.93" y1="3.47" x2="-22.54" y2="2.86" width="0.254" layer="16"/>
-<wire x1="-22.54" y1="2.86" x2="-23.495" y2="2.86" width="0.254" layer="16"/>
-<wire x1="-26.035" y1="2.86" x2="-23.495" y2="2.86" width="0.254" layer="16"/>
-<wire x1="-25.4" y1="1.27" x2="-26.035" y2="1.905" width="0.254" layer="16"/>
-<wire x1="-26.035" y1="1.905" x2="-26.035" y2="2.86" width="0.254" layer="16"/>
+<wire x1="-26.035" y1="4.13" x2="-24.765" y2="4.13" width="0.254" layer="16"/>
+<wire x1="-24.765" y1="4.13" x2="-23.495" y2="4.13" width="0.254" layer="16"/>
+<wire x1="-24.765" y1="4.1275" x2="-24.765" y2="4.13" width="0.254" layer="16"/>
+<wire x1="-40.64" y1="8.255" x2="-40.64" y2="1.27" width="0.254" layer="16"/>
+<wire x1="-40.64" y1="1.27" x2="-37.465" y2="-1.905" width="0.254" layer="16"/>
+<wire x1="-37.465" y1="-1.905" x2="-27.305" y2="-1.905" width="0.254" layer="16"/>
+<via x="-27.305" y="-1.905" extent="1-16" drill="0.5"/>
+<wire x1="-40.64" y1="8.255" x2="-40.37" y2="8.525" width="0.254" layer="16"/>
+<wire x1="-40.37" y1="8.525" x2="-39.37" y2="8.525" width="0.254" layer="16"/>
+<via x="-21.59" y="-2.54" extent="1-16" drill="0.5"/>
+<wire x1="-23.47" y1="4.105" x2="-23.495" y2="4.13" width="0.254" layer="16"/>
+<via x="-21.59" y="-3.81" extent="1-16" drill="0.5"/>
+<wire x1="-20.135" y1="3.47" x2="-21.885" y2="3.47" width="0.254" layer="16"/>
+<wire x1="-21.885" y1="3.47" x2="-22.545" y2="4.13" width="0.254" layer="16"/>
+<wire x1="-22.545" y1="4.13" x2="-23.495" y2="4.13" width="0.254" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="C36" pad="1"/>
@@ -4474,21 +4482,21 @@ einem neuen Namen ab.</description>
 <contactref element="C38" pad="1"/>
 <contactref element="U8" pad="7"/>
 <contactref element="H1" pad="P$1"/>
-<polygon width="0.254" layer="1">
+<polygon width="0.254" layer="1" rank="2">
 <vertex x="-3.81" y="2.54"/>
-<vertex x="-12.065" y="2.54"/>
-<vertex x="-21.59" y="12.065"/>
-<vertex x="-31.115" y="12.065"/>
-<vertex x="-31.115" y="17.78"/>
+<vertex x="-10.795" y="2.54"/>
+<vertex x="-20.32" y="12.065"/>
+<vertex x="-32.385" y="12.065"/>
+<vertex x="-32.385" y="17.78"/>
 <vertex x="-6.985" y="17.78"/>
 <vertex x="-6.985" y="10.16"/>
 <vertex x="-3.81" y="6.985"/>
 </polygon>
-<wire x1="-32.74" y1="12.39" x2="-30.79" y2="12.39" width="0.3048" layer="1"/>
-<wire x1="-30.79" y1="12.39" x2="-30.48" y2="12.7" width="0.254" layer="1"/>
-<wire x1="-35.84" y1="11.74" x2="-34.9325" y2="11.74" width="0.1524" layer="1"/>
-<wire x1="-34.9325" y1="11.74" x2="-34.2825" y2="12.39" width="0.1524" layer="1"/>
-<wire x1="-34.2825" y1="12.39" x2="-32.74" y2="12.39" width="0.1524" layer="1"/>
+<wire x1="-34.01" y1="12.39" x2="-32.06" y2="12.39" width="0.3048" layer="1"/>
+<wire x1="-32.06" y1="12.39" x2="-31.75" y2="12.7" width="0.254" layer="1"/>
+<wire x1="-37.11" y1="11.74" x2="-36.2025" y2="11.74" width="0.1524" layer="1"/>
+<wire x1="-36.2025" y1="11.74" x2="-35.5525" y2="12.39" width="0.1524" layer="1"/>
+<wire x1="-35.5525" y1="12.39" x2="-34.01" y2="12.39" width="0.1524" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U9" pad="4"/>
@@ -4998,55 +5006,68 @@ einem neuen Namen ab.</description>
 <signal name="SS_5V">
 <contactref element="C41" pad="1"/>
 <contactref element="U8" pad="5"/>
-<wire x1="-35.14" y1="15.24" x2="-35.84" y2="14.54" width="0.254" layer="1"/>
-<wire x1="-35.84" y1="14.54" x2="-35.84" y2="13.04" width="0.254" layer="1"/>
+<wire x1="-36.41" y1="15.24" x2="-37.11" y2="14.54" width="0.254" layer="1"/>
+<wire x1="-37.11" y1="14.54" x2="-37.11" y2="13.04" width="0.254" layer="1"/>
 </signal>
 <signal name="VBST_5V">
 <contactref element="C42" pad="1"/>
 <contactref element="U8" pad="8"/>
-<wire x1="-35.84" y1="11.09" x2="-37.385" y2="11.09" width="0.254" layer="1"/>
-<wire x1="-37.385" y1="11.09" x2="-38.1" y2="10.375" width="0.254" layer="1"/>
+<wire x1="-37.465" y1="8.47" x2="-37.465" y2="11.09" width="0.254" layer="1"/>
+<wire x1="-37.465" y1="11.09" x2="-37.11" y2="11.09" width="0.254" layer="1"/>
 </signal>
 <signal name="VFB_5V">
 <contactref element="R23" pad="2"/>
 <contactref element="R22" pad="1"/>
 <contactref element="U8" pad="6"/>
-<via x="-37.465" y="12.3825" extent="1-16" drill="0.5"/>
-<wire x1="-39.37" y1="11.16" x2="-39.37" y2="12.065" width="0.1524" layer="16"/>
-<wire x1="-39.37" y1="12.065" x2="-39.0525" y2="12.3825" width="0.1524" layer="16"/>
-<wire x1="-39.0525" y1="12.3825" x2="-37.465" y2="12.3825" width="0.1524" layer="16"/>
-<wire x1="-36.83" y1="11.16" x2="-36.83" y2="12.065" width="0.1524" layer="16"/>
-<wire x1="-36.83" y1="12.065" x2="-37.1475" y2="12.3825" width="0.1524" layer="16"/>
-<wire x1="-37.1475" y1="12.3825" x2="-37.465" y2="12.3825" width="0.1524" layer="16"/>
-<wire x1="-35.84" y1="12.39" x2="-35.8475" y2="12.3825" width="0.1524" layer="1"/>
-<wire x1="-35.8475" y1="12.3825" x2="-37.465" y2="12.3825" width="0.1524" layer="1"/>
+<wire x1="-37.11" y1="12.39" x2="-39.045" y2="12.39" width="0.254" layer="1"/>
+<wire x1="-39.045" y1="12.39" x2="-39.37" y2="12.065" width="0.254" layer="1"/>
+<via x="-39.37" y="12.065" extent="1-16" drill="0.5"/>
+<wire x1="-39.37" y1="12.065" x2="-39.37" y2="12.97" width="0.254" layer="16"/>
+<wire x1="-39.37" y1="10.525" x2="-39.37" y2="12.065" width="0.254" layer="16"/>
 </signal>
 <signal name="SW_5V">
 <contactref element="C42" pad="2"/>
 <contactref element="U8" pad="2"/>
 <contactref element="L3" pad="P$1"/>
-<polygon width="0.254" layer="1" isolate="0.4064" rank="3">
-<vertex x="-33.9725" y="12.065"/>
-<vertex x="-33.655" y="12.065"/>
-<vertex x="-33.655" y="10.16"/>
-<vertex x="-32.7025" y="9.2075"/>
-<vertex x="-31.75" y="9.2075"/>
-<vertex x="-30.48" y="7.9375"/>
-<vertex x="-30.48" y="4.445"/>
-<vertex x="-36.195" y="4.445"/>
-<vertex x="-36.195" y="9.8425"/>
+<wire x1="-34.01" y1="11.74" x2="-32.06" y2="11.74" width="0.3048" layer="1"/>
+<wire x1="-32.06" y1="11.74" x2="-31.75" y2="11.43" width="0.3048" layer="1"/>
+<polygon width="0.3048" layer="1">
+<vertex x="-32.7025" y="11.7475"/>
+<vertex x="-30.1625" y="11.7475"/>
+<vertex x="-30.1625" y="9.8425"/>
+<vertex x="-32.385" y="9.8425"/>
+<vertex x="-32.385" y="11.43"/>
 </polygon>
-<wire x1="-32.74" y1="11.74" x2="-33.9725" y2="11.74" width="0.254" layer="1"/>
-<wire x1="-33.9725" y1="11.74" x2="-34.29" y2="11.43" width="0.254" layer="1"/>
-<wire x1="-38.1" y1="8.675" x2="-36.615" y2="8.675" width="0.254" layer="1"/>
-<wire x1="-36.615" y1="8.675" x2="-36.195" y2="8.255" width="0.254" layer="1"/>
+<via x="-31.75" y="11.43" extent="1-16" drill="0.5"/>
+<via x="-30.7975" y="11.43" extent="1-16" drill="0.5"/>
+<via x="-30.7975" y="10.4775" extent="1-16" drill="0.5"/>
+<via x="-31.75" y="10.4775" extent="1-16" drill="0.5"/>
+<via x="-34.29" y="6.35" extent="1-16" drill="0.5"/>
+<via x="-35.56" y="6.35" extent="1-16" drill="0.5"/>
+<via x="-33.02" y="6.35" extent="1-16" drill="0.5"/>
+<via x="-31.75" y="6.35" extent="1-16" drill="0.5"/>
+<polygon width="0.3048" layer="1">
+<vertex x="-36.83" y="6.985"/>
+<vertex x="-30.48" y="6.985"/>
+<vertex x="-30.48" y="4.445"/>
+<vertex x="-31.75" y="3.175"/>
+<vertex x="-35.56" y="3.175"/>
+<vertex x="-36.83" y="4.445"/>
+</polygon>
+<polygon width="0.3048" layer="16">
+<vertex x="-32.385" y="11.7475"/>
+<vertex x="-32.385" y="10.16"/>
+<vertex x="-35.8775" y="6.6675"/>
+<vertex x="-35.8775" y="5.715"/>
+<vertex x="-30.1625" y="5.715"/>
+<vertex x="-30.1625" y="11.7475"/>
+</polygon>
 </signal>
 <signal name="N$3">
 <contactref element="R24" pad="2"/>
 <contactref element="LED4" pad="C"/>
-<wire x1="-40.64" y1="2.81" x2="-40.37" y2="2.54" width="0.254" layer="1"/>
-<wire x1="-40.37" y1="2.54" x2="-38.32" y2="2.54" width="0.254" layer="1"/>
-<wire x1="-38.32" y1="2.54" x2="-38.1" y2="2.32" width="0.254" layer="1"/>
+<wire x1="-25.4" y1="-7.4" x2="-25.45" y2="-7.35" width="0.254" layer="1"/>
+<wire x1="-25.45" y1="-7.35" x2="-27.94" y2="-7.35" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C18" pad="1"/>
@@ -5687,6 +5708,11 @@ einem neuen Namen ab.</description>
 <approved hash="19,1,5dd47ea3b6a179ca"/>
 <approved hash="19,1,9a051ae7d82918ce"/>
 <approved hash="5,1,590cee44ce98822b"/>
+<approved hash="5,1,1fb5a8c435987912"/>
+<approved hash="5,1,bfe07d6115e97015"/>
+<approved hash="19,1,626512ffc63116a1"/>
+<approved hash="5,1,26eb989a1312101b"/>
+<approved hash="5,1,4d1f4362f1ef54e8"/>
 <approved hash="5,1,202cbc184c16306d"/>
 <approved hash="5,1,c86c1c99cc9639ac"/>
 <approved hash="19,1,ad80a9eaba4b36e8"/>
@@ -5700,13 +5726,13 @@ einem neuen Namen ab.</description>
 <approved hash="19,1,449241455525ba0f"/>
 <approved hash="19,1,342a046b1ed6f696"/>
 <approved hash="19,1,aa030edd0bac534c"/>
-<approved hash="19,1,433e84556e0647f8"/>
 <approved hash="19,1,0b7228f5dd471d5d"/>
-<approved hash="19,1,8b480dce89add6b7"/>
+<approved hash="19,1,433e84556e0647f8"/>
 <approved hash="19,1,76efdfd0536bc1b3"/>
+<approved hash="19,1,8b480dce89add6b7"/>
 <approved hash="19,1,75b75b03673c7bd3"/>
-<approved hash="19,1,8c1b85a49cbadfcd"/>
 <approved hash="19,1,e71cc68ed8dbb63a"/>
+<approved hash="19,1,8c1b85a49cbadfcd"/>
 <approved hash="19,1,ded101c8f2f3a2a7"/>
 <approved hash="19,1,eff9b1bc470b920b"/>
 <approved hash="19,1,5633982741494caf"/>
@@ -5722,8 +5748,8 @@ einem neuen Namen ab.</description>
 <approved hash="19,1,201d0a22194ddc85"/>
 <approved hash="19,1,c5de18af616d61e2"/>
 <approved hash="19,1,84d3e2eb6579e9be"/>
-<approved hash="19,1,e585452a16341690"/>
 <approved hash="19,1,56975c1501304fb1"/>
+<approved hash="19,1,e585452a16341690"/>
 <approved hash="19,1,346fdd57e4f6f497"/>
 <approved hash="19,1,db120f3bed53048c"/>
 <approved hash="19,1,c79e5c0587277024"/>
@@ -5742,16 +5768,16 @@ einem neuen Namen ab.</description>
 <approved hash="5,1,37b3484436c8a250"/>
 <approved hash="19,1,9d201c103d891fc0"/>
 <approved hash="19,1,13535c23117724e6"/>
-<approved hash="5,1,be6ca0a160873e53"/>
 <approved hash="5,1,3fa46371a09bbc57"/>
+<approved hash="5,1,be6ca0a160873e53"/>
 <approved hash="19,1,c2d3eaad14315eae"/>
 <approved hash="19,1,c2d9d755d6c7a1bc"/>
 <approved hash="5,1,3deda0a361a5bcf0"/>
 <approved hash="5,1,bee461b2a0b93ff4"/>
-<approved hash="19,1,ac2c92fd79e1b841"/>
 <approved hash="19,1,ca6ce56c7d8aadfb"/>
-<approved hash="19,1,786b3178129ebaf1"/>
+<approved hash="19,1,ac2c92fd79e1b841"/>
 <approved hash="19,1,3f292b3c1aaaefc3"/>
+<approved hash="19,1,786b3178129ebaf1"/>
 <approved hash="5,1,7fbd1f75052a1a82"/>
 <approved hash="5,1,4b23caf11d29bb9c"/>
 <approved hash="5,1,417b723404aaba1c"/>
@@ -5760,14 +5786,19 @@ einem neuen Namen ab.</description>
 <approved hash="5,1,ad5306ddf752f950"/>
 <approved hash="5,1,a5a0a27415e3325c"/>
 <approved hash="19,1,902acbf011a2ea9b"/>
+<approved hash="19,16,fa870b2550e7413e"/>
+<approved hash="5,16,b7c61a9a47d7cac6"/>
+<approved hash="19,16,882d8f1f4d58fb17"/>
+<approved hash="5,16,02b9368b145b0024"/>
+<approved hash="19,16,0a2989140aad5eee"/>
 <approved hash="5,16,cdea584e062d02cd"/>
 <approved hash="5,16,4a96d847062b05be"/>
 <approved hash="5,16,06493202df7294c0"/>
 <approved hash="19,16,92440e0202049e42"/>
 <approved hash="5,16,c1da8a08f8f2dad6"/>
 <approved hash="5,16,3eda7575dc0ffe56"/>
-<approved hash="5,16,5bb88156127f54a6"/>
 <approved hash="5,16,b1d67ba0545c2788"/>
+<approved hash="5,16,5bb88156127f54a6"/>
 <approved hash="5,16,a291e405aadbdcf0"/>
 <approved hash="5,16,d6956c57b70d504f"/>
 <approved hash="5,16,47da0c76a78c85d6"/>
@@ -5780,8 +5811,8 @@ einem neuen Namen ab.</description>
 <approved hash="19,16,d7fb370b7599601d"/>
 <approved hash="19,16,195c5b0a4118fc8e"/>
 <approved hash="19,16,ec22dc4ef018b189"/>
-<approved hash="19,16,aae99f59a8bc5c71"/>
 <approved hash="19,16,ae2015cc6c5516c4"/>
+<approved hash="19,16,aae99f59a8bc5c71"/>
 <approved hash="5,16,49c865a7cd043d8b"/>
 <approved hash="19,16,59cb6d9433886536"/>
 <approved hash="19,16,33213a5f7d471546"/>
