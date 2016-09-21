@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20548,27 +20548,41 @@ LOW: connect AIN1/2 and disconnect temperature sensors
 A0
 HIGH: use AIN2
 LOW: use AIN1</text>
-<text x="-746.76" y="160.02" size="1.778" layer="97">Hall Effect Sensor:
+<text x="-746.76" y="144.78" size="1.778" layer="97">Hall Effect Sensor:
 Texense RS-M10 WS
 http://www.sens4speed.com/en/products/wheel-speed/rs-m10ws_3.html</text>
-<text x="-746.76" y="147.32" size="1.778" layer="97">Shock Potentiometer:
+<text x="-746.76" y="134.62" size="1.778" layer="97">Shock Potentiometer:
 Texense RSL 75mm
 http://www.sens4speed.com/en/products/potentiometers/rsl-75mm_14.html</text>
-<text x="-746.76" y="134.62" size="1.778" layer="97">IR Camera:
+<text x="-746.76" y="177.8" size="1.778" layer="97">IR Camera:
 Flir Lepton 500-0659-01
 http://www.digikey.com/product-detail/en/500-0659-01/500-0659-01-ND/5215153</text>
-<text x="-746.76" y="111.76" size="1.778" layer="97">Strain Gauge:
+<text x="-746.76" y="81.28" size="1.778" layer="97">Strain Gauge:
 Micro-Measurements MMF003129
 (125UN series)
 http://www.digikey.com/product-detail/en/CEA-06-125UN-350/1033-1004-ND/2503695
-  Requires 3 additional
-  350-ohm precision resistors 
-  to form a wheatstone bridge</text>
+
+-Needs own board, use precision 350 resistors 
+for wheatstone bridge,
+-use dual strain gadge setup to minimize
+effect of temperature
+-maybe 3 wire connection? 
+-need very accurate Vin
+so use V regulator to go from Vbatt --&gt; 6V or 7V
+then use a linear regulator to get down to 5V
+-The people whose ideas im stealing:
+http://edge.rit.edu/edge/P05109/public
+/Files/PDR.pdf
+
+-The part they use:  AD8230</text>
 <text x="-495.3" y="195.58" size="1.27" layer="97" rot="MR0">GLV battery VCC</text>
 <text x="-495.3" y="172.72" size="1.27" layer="97" rot="MR0">GLV battery GND</text>
 <text x="264.16" y="210.82" size="1.778" layer="97" rot="MR0">NC</text>
 <text x="-205.74" y="139.7" size="1.778" layer="97">NC</text>
 <text x="810.26" y="170.18" size="1.778" layer="97">74479775222</text>
+<text x="-746.76" y="154.94" size="1.778" layer="95">IR SENSOR
+http://www.omega.com/pptst/OS137.html   - 9m dist?</text>
+<text x="-762" y="180.34" size="1.778" layer="91">NOPE ----&gt;</text>
 </plain>
 <instances>
 <instance part="P+1" gate="VCC" x="-571.5" y="205.74" rot="MR0"/>
